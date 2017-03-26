@@ -1,0 +1,1528 @@
+1477567338:2016-10-27 14:22:18==REQUEST: {"rest_action":"get_live_items"}
+1477567338:2016-10-27 14:22:18==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567338:2016-10-27 14:22:18==
+1477567338:2016-10-27 14:22:18==Inside 1
+1477567338:2016-10-27 14:22:18==Inside 1
+1477567338:2016-10-27 14:22:18==Inside 1
+1477567338:2016-10-27 14:22:18==Inside 1
+1477567338:2016-10-27 14:22:18==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"buy_now":1,"name":"Tv set","refresh_rate":"20","reserve_price":"10","image_path":"https:\/\/www.windstream.com\/uploadedImages\/Content\/Product\/Electronics\/Tablets_Laptops_and_Desktops\/HP255Laptop-thumb.jpg"},{"auction_id":3,"buy_now":1,"name":"Leather SeatCovers","refresh_rate":"20","reserve_price":"4000","image_path":"https:\/\/www.windstream.com\/uploadedImages\/Content\/Product\/Electronics\/Tablets_Laptops_and_Desktops\/HP255Laptop-thumb.jpg"},{"auction_id":2,"buy_now":1,"name":"HP Laptop","refresh_rate":"15","reserve_price":"2000","image_path":"https:\/\/www.windstream.com\/uploadedImages\/Content\/Product\/Electronics\/Tablets_Laptops_and_Desktops\/HP255Laptop-thumb.jpg"},{"auction_id":1,"buy_now":1,"name":"TagHeur Watch","refresh_rate":"20","reserve_price":"2000","image_path":"https:\/\/www.windstream.com\/uploadedImages\/Content\/Product\/Electronics\/Tablets_Laptops_and_Desktops\/HP255Laptop-thumb.jpg"}]}
+1477567359:2016-10-27 14:22:39==REQUEST: {"rest_action":"get_live_time"}
+1477567359:2016-10-27 14:22:39==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567359:2016-10-27 14:22:39==
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":30,"new_price":40},{"auction_id":3,"end_time":17,"new_price":44},{"auction_id":2,"end_time":18,"new_price":16},{"auction_id":1,"end_time":7,"new_price":22}]}
+1477567359:2016-10-27 14:22:39==REQUEST: {"rest_action":"get_live_time"}
+1477567359:2016-10-27 14:22:39==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567359:2016-10-27 14:22:39==
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":27,"new_price":19},{"auction_id":3,"end_time":2,"new_price":17},{"auction_id":2,"end_time":20,"new_price":14},{"auction_id":1,"end_time":10,"new_price":46}]}
+1477567359:2016-10-27 14:22:39==REQUEST: {"rest_action":"get_live_time"}
+1477567359:2016-10-27 14:22:39==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567359:2016-10-27 14:22:39==
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==Inside 1
+1477567359:2016-10-27 14:22:39==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":42},{"auction_id":3,"end_time":25,"new_price":22},{"auction_id":2,"end_time":30,"new_price":12},{"auction_id":1,"end_time":19,"new_price":29}]}
+1477567360:2016-10-27 14:22:40==REQUEST: {"rest_action":"get_live_time"}
+1477567360:2016-10-27 14:22:40==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567360:2016-10-27 14:22:40==
+1477567360:2016-10-27 14:22:40==Inside 1
+1477567360:2016-10-27 14:22:40==Inside 1
+1477567360:2016-10-27 14:22:40==Inside 1
+1477567360:2016-10-27 14:22:40==Inside 1
+1477567360:2016-10-27 14:22:40==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":7,"new_price":33},{"auction_id":3,"end_time":4,"new_price":45},{"auction_id":2,"end_time":8,"new_price":20},{"auction_id":1,"end_time":24,"new_price":48}]}
+1477567361:2016-10-27 14:22:41==REQUEST: {"rest_action":"get_live_time"}
+1477567361:2016-10-27 14:22:41==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567361:2016-10-27 14:22:41==
+1477567361:2016-10-27 14:22:41==Inside 1
+1477567361:2016-10-27 14:22:41==Inside 1
+1477567361:2016-10-27 14:22:41==Inside 1
+1477567361:2016-10-27 14:22:41==Inside 1
+1477567361:2016-10-27 14:22:41==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":50},{"auction_id":3,"end_time":12,"new_price":16},{"auction_id":2,"end_time":26,"new_price":33},{"auction_id":1,"end_time":9,"new_price":35}]}
+1477567362:2016-10-27 14:22:42==REQUEST: {"rest_action":"get_live_time"}
+1477567362:2016-10-27 14:22:42==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567362:2016-10-27 14:22:42==
+1477567362:2016-10-27 14:22:42==Inside 1
+1477567362:2016-10-27 14:22:42==Inside 1
+1477567362:2016-10-27 14:22:42==Inside 1
+1477567362:2016-10-27 14:22:42==Inside 1
+1477567362:2016-10-27 14:22:42==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":19,"new_price":19},{"auction_id":3,"end_time":30,"new_price":35},{"auction_id":2,"end_time":29,"new_price":24},{"auction_id":1,"end_time":17,"new_price":31}]}
+1477567363:2016-10-27 14:22:43==REQUEST: {"rest_action":"get_live_time"}
+1477567363:2016-10-27 14:22:43==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567363:2016-10-27 14:22:43==
+1477567363:2016-10-27 14:22:43==Inside 1
+1477567363:2016-10-27 14:22:43==Inside 1
+1477567363:2016-10-27 14:22:43==Inside 1
+1477567363:2016-10-27 14:22:43==Inside 1
+1477567363:2016-10-27 14:22:43==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":5,"new_price":25},{"auction_id":3,"end_time":26,"new_price":15},{"auction_id":2,"end_time":14,"new_price":28},{"auction_id":1,"end_time":18,"new_price":37}]}
+1477567364:2016-10-27 14:22:44==REQUEST: {"rest_action":"get_live_time"}
+1477567364:2016-10-27 14:22:44==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567364:2016-10-27 14:22:44==
+1477567364:2016-10-27 14:22:44==Inside 1
+1477567364:2016-10-27 14:22:44==Inside 1
+1477567364:2016-10-27 14:22:44==Inside 1
+1477567364:2016-10-27 14:22:44==Inside 1
+1477567364:2016-10-27 14:22:44==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":29,"new_price":36},{"auction_id":3,"end_time":11,"new_price":17},{"auction_id":2,"end_time":17,"new_price":33},{"auction_id":1,"end_time":17,"new_price":44}]}
+1477567365:2016-10-27 14:22:45==REQUEST: {"rest_action":"get_live_time"}
+1477567365:2016-10-27 14:22:45==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567365:2016-10-27 14:22:45==
+1477567365:2016-10-27 14:22:45==Inside 1
+1477567365:2016-10-27 14:22:45==Inside 1
+1477567365:2016-10-27 14:22:45==Inside 1
+1477567365:2016-10-27 14:22:45==Inside 1
+1477567365:2016-10-27 14:22:45==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":25,"new_price":20},{"auction_id":3,"end_time":7,"new_price":14},{"auction_id":2,"end_time":26,"new_price":45},{"auction_id":1,"end_time":11,"new_price":32}]}
+1477567366:2016-10-27 14:22:46==REQUEST: {"rest_action":"get_live_time"}
+1477567366:2016-10-27 14:22:46==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567366:2016-10-27 14:22:46==
+1477567366:2016-10-27 14:22:46==Inside 1
+1477567366:2016-10-27 14:22:46==Inside 1
+1477567366:2016-10-27 14:22:46==Inside 1
+1477567366:2016-10-27 14:22:46==Inside 1
+1477567366:2016-10-27 14:22:46==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":40},{"auction_id":3,"end_time":11,"new_price":39},{"auction_id":2,"end_time":11,"new_price":40},{"auction_id":1,"end_time":28,"new_price":11}]}
+1477567367:2016-10-27 14:22:47==REQUEST: {"rest_action":"get_live_time"}
+1477567367:2016-10-27 14:22:47==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567367:2016-10-27 14:22:47==
+1477567367:2016-10-27 14:22:47==Inside 1
+1477567367:2016-10-27 14:22:47==Inside 1
+1477567367:2016-10-27 14:22:47==Inside 1
+1477567367:2016-10-27 14:22:47==Inside 1
+1477567367:2016-10-27 14:22:47==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":29,"new_price":49},{"auction_id":3,"end_time":2,"new_price":49},{"auction_id":2,"end_time":18,"new_price":34},{"auction_id":1,"end_time":3,"new_price":32}]}
+1477567368:2016-10-27 14:22:48==REQUEST: {"rest_action":"get_live_time"}
+1477567368:2016-10-27 14:22:48==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567368:2016-10-27 14:22:48==
+1477567368:2016-10-27 14:22:48==Inside 1
+1477567368:2016-10-27 14:22:48==Inside 1
+1477567368:2016-10-27 14:22:48==Inside 1
+1477567368:2016-10-27 14:22:48==Inside 1
+1477567368:2016-10-27 14:22:48==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":27},{"auction_id":3,"end_time":22,"new_price":42},{"auction_id":2,"end_time":30,"new_price":21},{"auction_id":1,"end_time":19,"new_price":43}]}
+1477567369:2016-10-27 14:22:49==REQUEST: {"rest_action":"get_live_time"}
+1477567369:2016-10-27 14:22:49==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567369:2016-10-27 14:22:49==
+1477567369:2016-10-27 14:22:49==Inside 1
+1477567369:2016-10-27 14:22:49==Inside 1
+1477567369:2016-10-27 14:22:49==Inside 1
+1477567369:2016-10-27 14:22:49==Inside 1
+1477567369:2016-10-27 14:22:49==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":17,"new_price":44},{"auction_id":3,"end_time":29,"new_price":25},{"auction_id":2,"end_time":22,"new_price":22},{"auction_id":1,"end_time":29,"new_price":49}]}
+1477567370:2016-10-27 14:22:50==REQUEST: {"rest_action":"get_live_time"}
+1477567370:2016-10-27 14:22:50==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567370:2016-10-27 14:22:50==
+1477567370:2016-10-27 14:22:50==Inside 1
+1477567370:2016-10-27 14:22:50==Inside 1
+1477567370:2016-10-27 14:22:50==Inside 1
+1477567370:2016-10-27 14:22:50==Inside 1
+1477567370:2016-10-27 14:22:50==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":2,"new_price":21},{"auction_id":3,"end_time":21,"new_price":26},{"auction_id":2,"end_time":1,"new_price":35},{"auction_id":1,"end_time":13,"new_price":48}]}
+1477567371:2016-10-27 14:22:51==REQUEST: {"rest_action":"get_live_time"}
+1477567371:2016-10-27 14:22:51==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567371:2016-10-27 14:22:51==
+1477567371:2016-10-27 14:22:51==Inside 1
+1477567371:2016-10-27 14:22:51==Inside 1
+1477567371:2016-10-27 14:22:51==Inside 1
+1477567371:2016-10-27 14:22:51==Inside 1
+1477567371:2016-10-27 14:22:51==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":29},{"auction_id":3,"end_time":28,"new_price":16},{"auction_id":2,"end_time":3,"new_price":50},{"auction_id":1,"end_time":22,"new_price":23}]}
+1477567372:2016-10-27 14:22:52==REQUEST: {"rest_action":"get_live_time"}
+1477567372:2016-10-27 14:22:52==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567372:2016-10-27 14:22:52==
+1477567372:2016-10-27 14:22:52==Inside 1
+1477567372:2016-10-27 14:22:52==Inside 1
+1477567372:2016-10-27 14:22:52==Inside 1
+1477567372:2016-10-27 14:22:52==Inside 1
+1477567372:2016-10-27 14:22:52==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":13,"new_price":27},{"auction_id":3,"end_time":4,"new_price":27},{"auction_id":2,"end_time":22,"new_price":39},{"auction_id":1,"end_time":8,"new_price":20}]}
+1477567373:2016-10-27 14:22:53==REQUEST: {"rest_action":"get_live_time"}
+1477567373:2016-10-27 14:22:53==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567373:2016-10-27 14:22:53==
+1477567373:2016-10-27 14:22:53==Inside 1
+1477567373:2016-10-27 14:22:53==Inside 1
+1477567373:2016-10-27 14:22:53==Inside 1
+1477567373:2016-10-27 14:22:53==Inside 1
+1477567373:2016-10-27 14:22:53==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":17},{"auction_id":3,"end_time":19,"new_price":21},{"auction_id":2,"end_time":15,"new_price":33},{"auction_id":1,"end_time":8,"new_price":31}]}
+1477567374:2016-10-27 14:22:54==REQUEST: {"rest_action":"get_live_time"}
+1477567374:2016-10-27 14:22:54==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567374:2016-10-27 14:22:54==
+1477567374:2016-10-27 14:22:54==Inside 1
+1477567374:2016-10-27 14:22:54==Inside 1
+1477567374:2016-10-27 14:22:54==Inside 1
+1477567374:2016-10-27 14:22:54==Inside 1
+1477567374:2016-10-27 14:22:54==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":14,"new_price":16},{"auction_id":3,"end_time":27,"new_price":48},{"auction_id":2,"end_time":8,"new_price":31},{"auction_id":1,"end_time":20,"new_price":30}]}
+1477567375:2016-10-27 14:22:55==REQUEST: {"rest_action":"get_live_time"}
+1477567375:2016-10-27 14:22:55==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567375:2016-10-27 14:22:55==
+1477567375:2016-10-27 14:22:55==Inside 1
+1477567375:2016-10-27 14:22:55==Inside 1
+1477567375:2016-10-27 14:22:55==Inside 1
+1477567375:2016-10-27 14:22:55==Inside 1
+1477567375:2016-10-27 14:22:55==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":6,"new_price":34},{"auction_id":3,"end_time":1,"new_price":37},{"auction_id":2,"end_time":13,"new_price":38},{"auction_id":1,"end_time":12,"new_price":34}]}
+1477567376:2016-10-27 14:22:56==REQUEST: {"rest_action":"get_live_time"}
+1477567376:2016-10-27 14:22:56==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567376:2016-10-27 14:22:56==
+1477567376:2016-10-27 14:22:56==Inside 1
+1477567376:2016-10-27 14:22:56==Inside 1
+1477567376:2016-10-27 14:22:56==Inside 1
+1477567376:2016-10-27 14:22:56==Inside 1
+1477567376:2016-10-27 14:22:56==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":21,"new_price":21},{"auction_id":3,"end_time":5,"new_price":32},{"auction_id":2,"end_time":25,"new_price":48},{"auction_id":1,"end_time":29,"new_price":17}]}
+1477567377:2016-10-27 14:22:57==REQUEST: {"rest_action":"get_live_time"}
+1477567377:2016-10-27 14:22:57==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567377:2016-10-27 14:22:57==
+1477567377:2016-10-27 14:22:57==Inside 1
+1477567377:2016-10-27 14:22:57==Inside 1
+1477567377:2016-10-27 14:22:57==Inside 1
+1477567377:2016-10-27 14:22:57==Inside 1
+1477567377:2016-10-27 14:22:57==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":26,"new_price":11},{"auction_id":3,"end_time":11,"new_price":49},{"auction_id":2,"end_time":19,"new_price":25},{"auction_id":1,"end_time":28,"new_price":11}]}
+1477567378:2016-10-27 14:22:58==REQUEST: {"rest_action":"get_live_time"}
+1477567378:2016-10-27 14:22:58==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567378:2016-10-27 14:22:58==
+1477567378:2016-10-27 14:22:58==Inside 1
+1477567378:2016-10-27 14:22:58==Inside 1
+1477567378:2016-10-27 14:22:58==Inside 1
+1477567378:2016-10-27 14:22:58==Inside 1
+1477567378:2016-10-27 14:22:58==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":17,"new_price":43},{"auction_id":3,"end_time":30,"new_price":43},{"auction_id":2,"end_time":11,"new_price":35},{"auction_id":1,"end_time":9,"new_price":31}]}
+1477567379:2016-10-27 14:22:59==REQUEST: {"rest_action":"get_live_time"}
+1477567379:2016-10-27 14:22:59==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567379:2016-10-27 14:22:59==
+1477567379:2016-10-27 14:22:59==Inside 1
+1477567379:2016-10-27 14:22:59==Inside 1
+1477567379:2016-10-27 14:22:59==Inside 1
+1477567379:2016-10-27 14:22:59==Inside 1
+1477567379:2016-10-27 14:22:59==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":7,"new_price":22},{"auction_id":3,"end_time":7,"new_price":36},{"auction_id":2,"end_time":1,"new_price":34},{"auction_id":1,"end_time":8,"new_price":38}]}
+1477567380:2016-10-27 14:23:00==REQUEST: {"rest_action":"get_live_time"}
+1477567380:2016-10-27 14:23:00==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567380:2016-10-27 14:23:00==
+1477567380:2016-10-27 14:23:00==Inside 1
+1477567380:2016-10-27 14:23:00==Inside 1
+1477567380:2016-10-27 14:23:00==Inside 1
+1477567380:2016-10-27 14:23:00==Inside 1
+1477567380:2016-10-27 14:23:00==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":27,"new_price":25},{"auction_id":3,"end_time":8,"new_price":39},{"auction_id":2,"end_time":10,"new_price":17},{"auction_id":1,"end_time":27,"new_price":16}]}
+1477567381:2016-10-27 14:23:01==REQUEST: {"rest_action":"get_live_time"}
+1477567381:2016-10-27 14:23:01==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567381:2016-10-27 14:23:01==
+1477567381:2016-10-27 14:23:01==Inside 1
+1477567381:2016-10-27 14:23:01==Inside 1
+1477567381:2016-10-27 14:23:01==Inside 1
+1477567381:2016-10-27 14:23:01==Inside 1
+1477567381:2016-10-27 14:23:01==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":19},{"auction_id":3,"end_time":5,"new_price":44},{"auction_id":2,"end_time":19,"new_price":12},{"auction_id":1,"end_time":27,"new_price":17}]}
+1477567382:2016-10-27 14:23:02==REQUEST: {"rest_action":"get_live_time"}
+1477567382:2016-10-27 14:23:02==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567382:2016-10-27 14:23:02==
+1477567382:2016-10-27 14:23:02==Inside 1
+1477567382:2016-10-27 14:23:02==Inside 1
+1477567382:2016-10-27 14:23:02==Inside 1
+1477567382:2016-10-27 14:23:02==Inside 1
+1477567382:2016-10-27 14:23:02==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":27,"new_price":45},{"auction_id":3,"end_time":30,"new_price":18},{"auction_id":2,"end_time":15,"new_price":21},{"auction_id":1,"end_time":23,"new_price":39}]}
+1477567383:2016-10-27 14:23:03==REQUEST: {"rest_action":"get_live_time"}
+1477567383:2016-10-27 14:23:03==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567383:2016-10-27 14:23:03==
+1477567383:2016-10-27 14:23:03==Inside 1
+1477567383:2016-10-27 14:23:03==Inside 1
+1477567383:2016-10-27 14:23:03==Inside 1
+1477567383:2016-10-27 14:23:03==Inside 1
+1477567383:2016-10-27 14:23:03==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":49},{"auction_id":3,"end_time":12,"new_price":33},{"auction_id":2,"end_time":18,"new_price":34},{"auction_id":1,"end_time":9,"new_price":29}]}
+1477567384:2016-10-27 14:23:04==REQUEST: {"rest_action":"get_live_time"}
+1477567384:2016-10-27 14:23:04==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567384:2016-10-27 14:23:04==
+1477567384:2016-10-27 14:23:04==Inside 1
+1477567384:2016-10-27 14:23:04==Inside 1
+1477567384:2016-10-27 14:23:04==Inside 1
+1477567384:2016-10-27 14:23:04==Inside 1
+1477567384:2016-10-27 14:23:04==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":6,"new_price":41},{"auction_id":3,"end_time":5,"new_price":26},{"auction_id":2,"end_time":5,"new_price":48},{"auction_id":1,"end_time":12,"new_price":34}]}
+1477567385:2016-10-27 14:23:05==REQUEST: {"rest_action":"get_live_time"}
+1477567385:2016-10-27 14:23:05==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567385:2016-10-27 14:23:05==
+1477567385:2016-10-27 14:23:05==Inside 1
+1477567385:2016-10-27 14:23:05==Inside 1
+1477567385:2016-10-27 14:23:05==Inside 1
+1477567385:2016-10-27 14:23:05==Inside 1
+1477567385:2016-10-27 14:23:05==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":22,"new_price":45},{"auction_id":3,"end_time":20,"new_price":20},{"auction_id":2,"end_time":25,"new_price":14},{"auction_id":1,"end_time":17,"new_price":36}]}
+1477567386:2016-10-27 14:23:06==REQUEST: {"rest_action":"get_live_time"}
+1477567386:2016-10-27 14:23:06==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567386:2016-10-27 14:23:06==
+1477567386:2016-10-27 14:23:06==Inside 1
+1477567386:2016-10-27 14:23:06==Inside 1
+1477567386:2016-10-27 14:23:06==Inside 1
+1477567386:2016-10-27 14:23:06==Inside 1
+1477567386:2016-10-27 14:23:06==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":14},{"auction_id":3,"end_time":25,"new_price":47},{"auction_id":2,"end_time":9,"new_price":12},{"auction_id":1,"end_time":19,"new_price":40}]}
+1477567387:2016-10-27 14:23:07==REQUEST: {"rest_action":"get_live_time"}
+1477567387:2016-10-27 14:23:07==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567387:2016-10-27 14:23:07==
+1477567387:2016-10-27 14:23:07==Inside 1
+1477567387:2016-10-27 14:23:07==Inside 1
+1477567387:2016-10-27 14:23:07==Inside 1
+1477567387:2016-10-27 14:23:07==Inside 1
+1477567387:2016-10-27 14:23:07==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":6,"new_price":43},{"auction_id":3,"end_time":24,"new_price":24},{"auction_id":2,"end_time":5,"new_price":19},{"auction_id":1,"end_time":26,"new_price":23}]}
+1477567388:2016-10-27 14:23:08==REQUEST: {"rest_action":"get_live_time"}
+1477567388:2016-10-27 14:23:08==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567388:2016-10-27 14:23:08==
+1477567388:2016-10-27 14:23:08==Inside 1
+1477567388:2016-10-27 14:23:08==Inside 1
+1477567388:2016-10-27 14:23:08==Inside 1
+1477567388:2016-10-27 14:23:08==Inside 1
+1477567388:2016-10-27 14:23:08==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":30,"new_price":50},{"auction_id":3,"end_time":23,"new_price":16},{"auction_id":2,"end_time":29,"new_price":15},{"auction_id":1,"end_time":23,"new_price":37}]}
+1477567389:2016-10-27 14:23:09==REQUEST: {"rest_action":"get_live_time"}
+1477567389:2016-10-27 14:23:09==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567389:2016-10-27 14:23:09==
+1477567389:2016-10-27 14:23:09==Inside 1
+1477567389:2016-10-27 14:23:09==Inside 1
+1477567389:2016-10-27 14:23:09==Inside 1
+1477567389:2016-10-27 14:23:09==Inside 1
+1477567389:2016-10-27 14:23:09==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":30,"new_price":25},{"auction_id":3,"end_time":28,"new_price":43},{"auction_id":2,"end_time":15,"new_price":29},{"auction_id":1,"end_time":14,"new_price":12}]}
+1477567390:2016-10-27 14:23:10==REQUEST: {"rest_action":"get_live_time"}
+1477567390:2016-10-27 14:23:10==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567390:2016-10-27 14:23:10==
+1477567390:2016-10-27 14:23:10==Inside 1
+1477567390:2016-10-27 14:23:10==Inside 1
+1477567390:2016-10-27 14:23:10==Inside 1
+1477567390:2016-10-27 14:23:10==Inside 1
+1477567390:2016-10-27 14:23:10==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":20},{"auction_id":3,"end_time":30,"new_price":46},{"auction_id":2,"end_time":10,"new_price":33},{"auction_id":1,"end_time":19,"new_price":30}]}
+1477567391:2016-10-27 14:23:11==REQUEST: {"rest_action":"get_live_time"}
+1477567391:2016-10-27 14:23:11==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567391:2016-10-27 14:23:11==
+1477567391:2016-10-27 14:23:11==Inside 1
+1477567391:2016-10-27 14:23:11==Inside 1
+1477567391:2016-10-27 14:23:11==Inside 1
+1477567391:2016-10-27 14:23:11==Inside 1
+1477567391:2016-10-27 14:23:11==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":12,"new_price":27},{"auction_id":3,"end_time":27,"new_price":32},{"auction_id":2,"end_time":20,"new_price":39},{"auction_id":1,"end_time":27,"new_price":36}]}
+1477567392:2016-10-27 14:23:12==REQUEST: {"rest_action":"get_live_time"}
+1477567392:2016-10-27 14:23:12==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567392:2016-10-27 14:23:12==
+1477567392:2016-10-27 14:23:12==Inside 1
+1477567392:2016-10-27 14:23:12==Inside 1
+1477567392:2016-10-27 14:23:12==Inside 1
+1477567392:2016-10-27 14:23:12==Inside 1
+1477567392:2016-10-27 14:23:12==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":22,"new_price":36},{"auction_id":3,"end_time":24,"new_price":37},{"auction_id":2,"end_time":24,"new_price":31},{"auction_id":1,"end_time":10,"new_price":41}]}
+1477567393:2016-10-27 14:23:13==REQUEST: {"rest_action":"get_live_time"}
+1477567393:2016-10-27 14:23:13==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567393:2016-10-27 14:23:13==
+1477567393:2016-10-27 14:23:13==Inside 1
+1477567393:2016-10-27 14:23:13==Inside 1
+1477567393:2016-10-27 14:23:13==Inside 1
+1477567393:2016-10-27 14:23:13==Inside 1
+1477567393:2016-10-27 14:23:13==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":28,"new_price":20},{"auction_id":3,"end_time":18,"new_price":26},{"auction_id":2,"end_time":22,"new_price":11},{"auction_id":1,"end_time":14,"new_price":23}]}
+1477567394:2016-10-27 14:23:14==REQUEST: {"rest_action":"get_live_time"}
+1477567394:2016-10-27 14:23:14==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567394:2016-10-27 14:23:14==
+1477567394:2016-10-27 14:23:14==Inside 1
+1477567394:2016-10-27 14:23:14==Inside 1
+1477567394:2016-10-27 14:23:14==Inside 1
+1477567394:2016-10-27 14:23:14==Inside 1
+1477567394:2016-10-27 14:23:14==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":20,"new_price":47},{"auction_id":3,"end_time":6,"new_price":39},{"auction_id":2,"end_time":26,"new_price":20},{"auction_id":1,"end_time":18,"new_price":23}]}
+1477567395:2016-10-27 14:23:15==REQUEST: {"rest_action":"get_live_time"}
+1477567395:2016-10-27 14:23:15==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567395:2016-10-27 14:23:15==
+1477567395:2016-10-27 14:23:15==Inside 1
+1477567395:2016-10-27 14:23:15==Inside 1
+1477567395:2016-10-27 14:23:15==Inside 1
+1477567395:2016-10-27 14:23:15==Inside 1
+1477567395:2016-10-27 14:23:15==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":6,"new_price":42},{"auction_id":3,"end_time":7,"new_price":40},{"auction_id":2,"end_time":1,"new_price":37},{"auction_id":1,"end_time":30,"new_price":39}]}
+1477567396:2016-10-27 14:23:16==REQUEST: {"rest_action":"get_live_time"}
+1477567396:2016-10-27 14:23:16==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567396:2016-10-27 14:23:16==
+1477567396:2016-10-27 14:23:16==Inside 1
+1477567396:2016-10-27 14:23:16==Inside 1
+1477567396:2016-10-27 14:23:16==Inside 1
+1477567396:2016-10-27 14:23:16==Inside 1
+1477567396:2016-10-27 14:23:16==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":14,"new_price":19},{"auction_id":3,"end_time":6,"new_price":11},{"auction_id":2,"end_time":7,"new_price":41},{"auction_id":1,"end_time":27,"new_price":20}]}
+1477567397:2016-10-27 14:23:17==REQUEST: {"rest_action":"get_live_time"}
+1477567397:2016-10-27 14:23:17==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567397:2016-10-27 14:23:17==
+1477567397:2016-10-27 14:23:17==Inside 1
+1477567397:2016-10-27 14:23:17==Inside 1
+1477567397:2016-10-27 14:23:17==Inside 1
+1477567397:2016-10-27 14:23:17==Inside 1
+1477567397:2016-10-27 14:23:17==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":6,"new_price":17},{"auction_id":3,"end_time":29,"new_price":40},{"auction_id":2,"end_time":26,"new_price":37},{"auction_id":1,"end_time":7,"new_price":30}]}
+1477567398:2016-10-27 14:23:18==REQUEST: {"rest_action":"get_live_time"}
+1477567398:2016-10-27 14:23:18==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567398:2016-10-27 14:23:18==
+1477567398:2016-10-27 14:23:18==Inside 1
+1477567398:2016-10-27 14:23:18==Inside 1
+1477567398:2016-10-27 14:23:18==Inside 1
+1477567398:2016-10-27 14:23:18==Inside 1
+1477567398:2016-10-27 14:23:18==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":27},{"auction_id":3,"end_time":7,"new_price":28},{"auction_id":2,"end_time":21,"new_price":43},{"auction_id":1,"end_time":24,"new_price":44}]}
+1477567399:2016-10-27 14:23:19==REQUEST: {"rest_action":"get_live_time"}
+1477567399:2016-10-27 14:23:19==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567399:2016-10-27 14:23:19==
+1477567399:2016-10-27 14:23:19==Inside 1
+1477567399:2016-10-27 14:23:19==Inside 1
+1477567399:2016-10-27 14:23:19==Inside 1
+1477567399:2016-10-27 14:23:19==Inside 1
+1477567399:2016-10-27 14:23:19==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":50},{"auction_id":3,"end_time":18,"new_price":35},{"auction_id":2,"end_time":20,"new_price":33},{"auction_id":1,"end_time":11,"new_price":14}]}
+1477567400:2016-10-27 14:23:20==REQUEST: {"rest_action":"get_live_time"}
+1477567400:2016-10-27 14:23:20==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567400:2016-10-27 14:23:20==
+1477567400:2016-10-27 14:23:20==Inside 1
+1477567400:2016-10-27 14:23:20==Inside 1
+1477567400:2016-10-27 14:23:20==Inside 1
+1477567400:2016-10-27 14:23:20==Inside 1
+1477567400:2016-10-27 14:23:20==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":25,"new_price":31},{"auction_id":3,"end_time":4,"new_price":11},{"auction_id":2,"end_time":9,"new_price":10},{"auction_id":1,"end_time":9,"new_price":28}]}
+1477567401:2016-10-27 14:23:21==REQUEST: {"rest_action":"get_live_time"}
+1477567401:2016-10-27 14:23:21==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567401:2016-10-27 14:23:21==
+1477567401:2016-10-27 14:23:21==Inside 1
+1477567401:2016-10-27 14:23:21==Inside 1
+1477567401:2016-10-27 14:23:21==Inside 1
+1477567401:2016-10-27 14:23:21==Inside 1
+1477567401:2016-10-27 14:23:21==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":6,"new_price":19},{"auction_id":3,"end_time":7,"new_price":11},{"auction_id":2,"end_time":28,"new_price":27},{"auction_id":1,"end_time":17,"new_price":30}]}
+1477567402:2016-10-27 14:23:22==REQUEST: {"rest_action":"get_live_time"}
+1477567402:2016-10-27 14:23:22==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567402:2016-10-27 14:23:22==
+1477567402:2016-10-27 14:23:22==Inside 1
+1477567402:2016-10-27 14:23:22==Inside 1
+1477567402:2016-10-27 14:23:22==Inside 1
+1477567402:2016-10-27 14:23:22==Inside 1
+1477567402:2016-10-27 14:23:22==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":26,"new_price":41},{"auction_id":3,"end_time":29,"new_price":31},{"auction_id":2,"end_time":18,"new_price":40},{"auction_id":1,"end_time":12,"new_price":16}]}
+1477567403:2016-10-27 14:23:23==REQUEST: {"rest_action":"get_live_time"}
+1477567403:2016-10-27 14:23:23==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567403:2016-10-27 14:23:23==
+1477567403:2016-10-27 14:23:23==Inside 1
+1477567403:2016-10-27 14:23:23==Inside 1
+1477567403:2016-10-27 14:23:23==Inside 1
+1477567403:2016-10-27 14:23:23==Inside 1
+1477567403:2016-10-27 14:23:23==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":23,"new_price":49},{"auction_id":3,"end_time":24,"new_price":26},{"auction_id":2,"end_time":16,"new_price":15},{"auction_id":1,"end_time":15,"new_price":24}]}
+1477567404:2016-10-27 14:23:24==REQUEST: {"rest_action":"get_live_time"}
+1477567404:2016-10-27 14:23:24==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567404:2016-10-27 14:23:24==
+1477567404:2016-10-27 14:23:24==Inside 1
+1477567404:2016-10-27 14:23:24==Inside 1
+1477567404:2016-10-27 14:23:24==Inside 1
+1477567404:2016-10-27 14:23:24==Inside 1
+1477567404:2016-10-27 14:23:24==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":9,"new_price":46},{"auction_id":3,"end_time":23,"new_price":19},{"auction_id":2,"end_time":26,"new_price":13},{"auction_id":1,"end_time":15,"new_price":18}]}
+1477567405:2016-10-27 14:23:25==REQUEST: {"rest_action":"get_live_time"}
+1477567405:2016-10-27 14:23:25==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567405:2016-10-27 14:23:25==
+1477567405:2016-10-27 14:23:25==Inside 1
+1477567405:2016-10-27 14:23:25==Inside 1
+1477567405:2016-10-27 14:23:25==Inside 1
+1477567405:2016-10-27 14:23:25==Inside 1
+1477567405:2016-10-27 14:23:25==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":21,"new_price":48},{"auction_id":3,"end_time":23,"new_price":38},{"auction_id":2,"end_time":5,"new_price":44},{"auction_id":1,"end_time":13,"new_price":50}]}
+1477567406:2016-10-27 14:23:26==REQUEST: {"rest_action":"get_live_time"}
+1477567406:2016-10-27 14:23:26==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567406:2016-10-27 14:23:26==
+1477567406:2016-10-27 14:23:26==Inside 1
+1477567406:2016-10-27 14:23:26==Inside 1
+1477567406:2016-10-27 14:23:26==Inside 1
+1477567406:2016-10-27 14:23:26==Inside 1
+1477567406:2016-10-27 14:23:26==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":20,"new_price":14},{"auction_id":3,"end_time":27,"new_price":42},{"auction_id":2,"end_time":21,"new_price":19},{"auction_id":1,"end_time":15,"new_price":10}]}
+1477567407:2016-10-27 14:23:27==REQUEST: {"rest_action":"get_live_time"}
+1477567407:2016-10-27 14:23:27==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567407:2016-10-27 14:23:27==
+1477567407:2016-10-27 14:23:27==Inside 1
+1477567407:2016-10-27 14:23:27==Inside 1
+1477567407:2016-10-27 14:23:27==Inside 1
+1477567407:2016-10-27 14:23:27==Inside 1
+1477567407:2016-10-27 14:23:27==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":31},{"auction_id":3,"end_time":7,"new_price":30},{"auction_id":2,"end_time":29,"new_price":23},{"auction_id":1,"end_time":7,"new_price":20}]}
+1477567408:2016-10-27 14:23:28==REQUEST: {"rest_action":"get_live_time"}
+1477567408:2016-10-27 14:23:28==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567408:2016-10-27 14:23:28==
+1477567408:2016-10-27 14:23:28==Inside 1
+1477567408:2016-10-27 14:23:28==Inside 1
+1477567408:2016-10-27 14:23:28==Inside 1
+1477567408:2016-10-27 14:23:28==Inside 1
+1477567408:2016-10-27 14:23:28==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":7,"new_price":48},{"auction_id":3,"end_time":15,"new_price":12},{"auction_id":2,"end_time":2,"new_price":49},{"auction_id":1,"end_time":8,"new_price":39}]}
+1477567409:2016-10-27 14:23:29==REQUEST: {"rest_action":"get_live_time"}
+1477567409:2016-10-27 14:23:29==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567409:2016-10-27 14:23:29==
+1477567409:2016-10-27 14:23:29==Inside 1
+1477567409:2016-10-27 14:23:29==Inside 1
+1477567409:2016-10-27 14:23:29==Inside 1
+1477567409:2016-10-27 14:23:29==Inside 1
+1477567409:2016-10-27 14:23:29==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":27,"new_price":10},{"auction_id":3,"end_time":14,"new_price":11},{"auction_id":2,"end_time":26,"new_price":44},{"auction_id":1,"end_time":1,"new_price":31}]}
+1477567411:2016-10-27 14:23:31==REQUEST: {"rest_action":"get_live_time"}
+1477567411:2016-10-27 14:23:31==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567411:2016-10-27 14:23:31==
+1477567411:2016-10-27 14:23:31==Inside 1
+1477567411:2016-10-27 14:23:31==Inside 1
+1477567411:2016-10-27 14:23:31==Inside 1
+1477567411:2016-10-27 14:23:31==Inside 1
+1477567411:2016-10-27 14:23:31==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":29,"new_price":46},{"auction_id":3,"end_time":10,"new_price":36},{"auction_id":2,"end_time":4,"new_price":43},{"auction_id":1,"end_time":21,"new_price":24}]}
+1477567411:2016-10-27 14:23:31==REQUEST: {"rest_action":"get_live_time"}
+1477567411:2016-10-27 14:23:31==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567411:2016-10-27 14:23:31==
+1477567411:2016-10-27 14:23:31==Inside 1
+1477567411:2016-10-27 14:23:31==Inside 1
+1477567411:2016-10-27 14:23:31==Inside 1
+1477567411:2016-10-27 14:23:31==Inside 1
+1477567411:2016-10-27 14:23:31==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":10,"new_price":46},{"auction_id":3,"end_time":26,"new_price":21},{"auction_id":2,"end_time":7,"new_price":12},{"auction_id":1,"end_time":17,"new_price":27}]}
+1477567412:2016-10-27 14:23:32==REQUEST: {"rest_action":"get_live_time"}
+1477567412:2016-10-27 14:23:32==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567412:2016-10-27 14:23:32==
+1477567412:2016-10-27 14:23:32==Inside 1
+1477567412:2016-10-27 14:23:32==Inside 1
+1477567412:2016-10-27 14:23:32==Inside 1
+1477567412:2016-10-27 14:23:32==Inside 1
+1477567412:2016-10-27 14:23:32==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":1,"new_price":11},{"auction_id":3,"end_time":15,"new_price":12},{"auction_id":2,"end_time":30,"new_price":40},{"auction_id":1,"end_time":24,"new_price":45}]}
+1477567413:2016-10-27 14:23:33==REQUEST: {"rest_action":"get_live_time"}
+1477567413:2016-10-27 14:23:33==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567413:2016-10-27 14:23:33==
+1477567413:2016-10-27 14:23:33==Inside 1
+1477567413:2016-10-27 14:23:33==Inside 1
+1477567413:2016-10-27 14:23:33==Inside 1
+1477567413:2016-10-27 14:23:33==Inside 1
+1477567413:2016-10-27 14:23:33==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":23,"new_price":19},{"auction_id":3,"end_time":28,"new_price":35},{"auction_id":2,"end_time":3,"new_price":47},{"auction_id":1,"end_time":5,"new_price":11}]}
+1477567414:2016-10-27 14:23:34==REQUEST: {"rest_action":"get_live_time"}
+1477567414:2016-10-27 14:23:34==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567414:2016-10-27 14:23:34==
+1477567414:2016-10-27 14:23:34==Inside 1
+1477567414:2016-10-27 14:23:34==Inside 1
+1477567414:2016-10-27 14:23:34==Inside 1
+1477567414:2016-10-27 14:23:34==Inside 1
+1477567414:2016-10-27 14:23:34==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":7,"new_price":47},{"auction_id":3,"end_time":17,"new_price":44},{"auction_id":2,"end_time":13,"new_price":15},{"auction_id":1,"end_time":3,"new_price":14}]}
+1477567415:2016-10-27 14:23:35==REQUEST: {"rest_action":"get_live_time"}
+1477567415:2016-10-27 14:23:35==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567415:2016-10-27 14:23:35==
+1477567415:2016-10-27 14:23:35==Inside 1
+1477567415:2016-10-27 14:23:35==Inside 1
+1477567415:2016-10-27 14:23:35==Inside 1
+1477567415:2016-10-27 14:23:35==Inside 1
+1477567415:2016-10-27 14:23:35==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":17,"new_price":19},{"auction_id":3,"end_time":8,"new_price":20},{"auction_id":2,"end_time":7,"new_price":16},{"auction_id":1,"end_time":9,"new_price":17}]}
+1477567416:2016-10-27 14:23:36==REQUEST: {"rest_action":"get_live_time"}
+1477567416:2016-10-27 14:23:36==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567416:2016-10-27 14:23:36==
+1477567416:2016-10-27 14:23:36==Inside 1
+1477567416:2016-10-27 14:23:36==Inside 1
+1477567416:2016-10-27 14:23:36==Inside 1
+1477567416:2016-10-27 14:23:36==Inside 1
+1477567416:2016-10-27 14:23:36==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":27,"new_price":44},{"auction_id":3,"end_time":1,"new_price":29},{"auction_id":2,"end_time":30,"new_price":19},{"auction_id":1,"end_time":24,"new_price":46}]}
+1477567417:2016-10-27 14:23:37==REQUEST: {"rest_action":"get_live_time"}
+1477567417:2016-10-27 14:23:37==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567417:2016-10-27 14:23:37==
+1477567417:2016-10-27 14:23:37==Inside 1
+1477567417:2016-10-27 14:23:37==Inside 1
+1477567417:2016-10-27 14:23:37==Inside 1
+1477567417:2016-10-27 14:23:37==Inside 1
+1477567417:2016-10-27 14:23:37==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":14,"new_price":44},{"auction_id":3,"end_time":3,"new_price":13},{"auction_id":2,"end_time":29,"new_price":26},{"auction_id":1,"end_time":30,"new_price":16}]}
+1477567418:2016-10-27 14:23:38==REQUEST: {"rest_action":"get_live_time"}
+1477567418:2016-10-27 14:23:38==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567418:2016-10-27 14:23:38==
+1477567418:2016-10-27 14:23:38==Inside 1
+1477567418:2016-10-27 14:23:38==Inside 1
+1477567418:2016-10-27 14:23:38==Inside 1
+1477567418:2016-10-27 14:23:38==Inside 1
+1477567418:2016-10-27 14:23:38==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":10,"new_price":31},{"auction_id":3,"end_time":1,"new_price":39},{"auction_id":2,"end_time":20,"new_price":12},{"auction_id":1,"end_time":25,"new_price":18}]}
+1477567419:2016-10-27 14:23:39==REQUEST: {"rest_action":"get_live_time"}
+1477567419:2016-10-27 14:23:39==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567419:2016-10-27 14:23:39==
+1477567419:2016-10-27 14:23:39==Inside 1
+1477567419:2016-10-27 14:23:39==Inside 1
+1477567419:2016-10-27 14:23:39==Inside 1
+1477567419:2016-10-27 14:23:39==Inside 1
+1477567419:2016-10-27 14:23:39==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":9,"new_price":12},{"auction_id":3,"end_time":14,"new_price":30},{"auction_id":2,"end_time":7,"new_price":40},{"auction_id":1,"end_time":21,"new_price":14}]}
+1477567420:2016-10-27 14:23:40==REQUEST: {"rest_action":"get_live_time"}
+1477567420:2016-10-27 14:23:40==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567420:2016-10-27 14:23:40==
+1477567420:2016-10-27 14:23:40==Inside 1
+1477567420:2016-10-27 14:23:40==Inside 1
+1477567420:2016-10-27 14:23:40==Inside 1
+1477567420:2016-10-27 14:23:40==Inside 1
+1477567420:2016-10-27 14:23:40==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":19,"new_price":39},{"auction_id":3,"end_time":19,"new_price":34},{"auction_id":2,"end_time":29,"new_price":26},{"auction_id":1,"end_time":15,"new_price":26}]}
+1477567421:2016-10-27 14:23:41==REQUEST: {"rest_action":"get_live_time"}
+1477567421:2016-10-27 14:23:41==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567421:2016-10-27 14:23:41==
+1477567421:2016-10-27 14:23:41==Inside 1
+1477567421:2016-10-27 14:23:41==Inside 1
+1477567421:2016-10-27 14:23:41==Inside 1
+1477567421:2016-10-27 14:23:41==Inside 1
+1477567421:2016-10-27 14:23:41==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":32},{"auction_id":3,"end_time":15,"new_price":17},{"auction_id":2,"end_time":29,"new_price":29},{"auction_id":1,"end_time":11,"new_price":20}]}
+1477567422:2016-10-27 14:23:42==REQUEST: {"rest_action":"get_live_time"}
+1477567422:2016-10-27 14:23:42==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567422:2016-10-27 14:23:42==
+1477567422:2016-10-27 14:23:42==Inside 1
+1477567422:2016-10-27 14:23:42==Inside 1
+1477567422:2016-10-27 14:23:42==Inside 1
+1477567422:2016-10-27 14:23:42==Inside 1
+1477567422:2016-10-27 14:23:42==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":1,"new_price":24},{"auction_id":3,"end_time":29,"new_price":37},{"auction_id":2,"end_time":13,"new_price":41},{"auction_id":1,"end_time":27,"new_price":39}]}
+1477567423:2016-10-27 14:23:43==REQUEST: {"rest_action":"get_live_time"}
+1477567423:2016-10-27 14:23:43==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567423:2016-10-27 14:23:43==
+1477567423:2016-10-27 14:23:43==Inside 1
+1477567423:2016-10-27 14:23:43==Inside 1
+1477567423:2016-10-27 14:23:43==Inside 1
+1477567423:2016-10-27 14:23:43==Inside 1
+1477567423:2016-10-27 14:23:43==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":26,"new_price":23},{"auction_id":3,"end_time":7,"new_price":13},{"auction_id":2,"end_time":3,"new_price":46},{"auction_id":1,"end_time":6,"new_price":38}]}
+1477567424:2016-10-27 14:23:44==REQUEST: {"rest_action":"get_live_time"}
+1477567424:2016-10-27 14:23:44==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567424:2016-10-27 14:23:44==
+1477567424:2016-10-27 14:23:44==Inside 1
+1477567424:2016-10-27 14:23:44==Inside 1
+1477567424:2016-10-27 14:23:44==Inside 1
+1477567424:2016-10-27 14:23:44==Inside 1
+1477567424:2016-10-27 14:23:44==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":21,"new_price":23},{"auction_id":3,"end_time":22,"new_price":39},{"auction_id":2,"end_time":1,"new_price":37},{"auction_id":1,"end_time":24,"new_price":32}]}
+1477567425:2016-10-27 14:23:45==REQUEST: {"rest_action":"get_live_time"}
+1477567425:2016-10-27 14:23:45==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567425:2016-10-27 14:23:45==
+1477567425:2016-10-27 14:23:45==Inside 1
+1477567425:2016-10-27 14:23:45==Inside 1
+1477567425:2016-10-27 14:23:45==Inside 1
+1477567425:2016-10-27 14:23:45==Inside 1
+1477567425:2016-10-27 14:23:45==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":17,"new_price":35},{"auction_id":3,"end_time":5,"new_price":33},{"auction_id":2,"end_time":6,"new_price":12},{"auction_id":1,"end_time":3,"new_price":49}]}
+1477567426:2016-10-27 14:23:46==REQUEST: {"rest_action":"get_live_time"}
+1477567426:2016-10-27 14:23:46==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567426:2016-10-27 14:23:46==
+1477567426:2016-10-27 14:23:46==Inside 1
+1477567426:2016-10-27 14:23:46==Inside 1
+1477567426:2016-10-27 14:23:46==Inside 1
+1477567426:2016-10-27 14:23:46==Inside 1
+1477567426:2016-10-27 14:23:46==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":25,"new_price":47},{"auction_id":3,"end_time":2,"new_price":44},{"auction_id":2,"end_time":29,"new_price":39},{"auction_id":1,"end_time":11,"new_price":14}]}
+1477567427:2016-10-27 14:23:47==REQUEST: {"rest_action":"get_live_time"}
+1477567427:2016-10-27 14:23:47==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567427:2016-10-27 14:23:47==
+1477567427:2016-10-27 14:23:47==Inside 1
+1477567427:2016-10-27 14:23:47==Inside 1
+1477567427:2016-10-27 14:23:47==Inside 1
+1477567427:2016-10-27 14:23:47==Inside 1
+1477567427:2016-10-27 14:23:47==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":30,"new_price":37},{"auction_id":3,"end_time":9,"new_price":49},{"auction_id":2,"end_time":6,"new_price":25},{"auction_id":1,"end_time":15,"new_price":45}]}
+1477567428:2016-10-27 14:23:48==REQUEST: {"rest_action":"get_live_time"}
+1477567428:2016-10-27 14:23:48==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567428:2016-10-27 14:23:48==
+1477567428:2016-10-27 14:23:48==Inside 1
+1477567428:2016-10-27 14:23:48==Inside 1
+1477567428:2016-10-27 14:23:48==Inside 1
+1477567428:2016-10-27 14:23:48==Inside 1
+1477567428:2016-10-27 14:23:48==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":21,"new_price":19},{"auction_id":3,"end_time":18,"new_price":39},{"auction_id":2,"end_time":28,"new_price":25},{"auction_id":1,"end_time":8,"new_price":29}]}
+1477567429:2016-10-27 14:23:49==REQUEST: {"rest_action":"get_live_time"}
+1477567429:2016-10-27 14:23:49==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567429:2016-10-27 14:23:49==
+1477567429:2016-10-27 14:23:49==Inside 1
+1477567429:2016-10-27 14:23:49==Inside 1
+1477567429:2016-10-27 14:23:49==Inside 1
+1477567429:2016-10-27 14:23:49==Inside 1
+1477567429:2016-10-27 14:23:49==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":30,"new_price":26},{"auction_id":3,"end_time":1,"new_price":17},{"auction_id":2,"end_time":14,"new_price":15},{"auction_id":1,"end_time":5,"new_price":20}]}
+1477567430:2016-10-27 14:23:50==REQUEST: {"rest_action":"get_live_time"}
+1477567430:2016-10-27 14:23:50==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567430:2016-10-27 14:23:50==
+1477567430:2016-10-27 14:23:50==Inside 1
+1477567430:2016-10-27 14:23:50==Inside 1
+1477567430:2016-10-27 14:23:50==Inside 1
+1477567430:2016-10-27 14:23:50==Inside 1
+1477567430:2016-10-27 14:23:50==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":2,"new_price":17},{"auction_id":3,"end_time":4,"new_price":10},{"auction_id":2,"end_time":28,"new_price":29},{"auction_id":1,"end_time":4,"new_price":46}]}
+1477567431:2016-10-27 14:23:51==REQUEST: {"rest_action":"get_live_time"}
+1477567431:2016-10-27 14:23:51==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567431:2016-10-27 14:23:51==
+1477567431:2016-10-27 14:23:51==Inside 1
+1477567431:2016-10-27 14:23:51==Inside 1
+1477567431:2016-10-27 14:23:51==Inside 1
+1477567431:2016-10-27 14:23:51==Inside 1
+1477567431:2016-10-27 14:23:51==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":5,"new_price":26},{"auction_id":3,"end_time":26,"new_price":23},{"auction_id":2,"end_time":24,"new_price":23},{"auction_id":1,"end_time":6,"new_price":28}]}
+1477567432:2016-10-27 14:23:52==REQUEST: {"rest_action":"get_live_time"}
+1477567432:2016-10-27 14:23:52==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567432:2016-10-27 14:23:52==
+1477567432:2016-10-27 14:23:52==Inside 1
+1477567432:2016-10-27 14:23:52==Inside 1
+1477567432:2016-10-27 14:23:52==Inside 1
+1477567432:2016-10-27 14:23:52==Inside 1
+1477567432:2016-10-27 14:23:52==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":17,"new_price":42},{"auction_id":3,"end_time":6,"new_price":29},{"auction_id":2,"end_time":5,"new_price":27},{"auction_id":1,"end_time":28,"new_price":16}]}
+1477567433:2016-10-27 14:23:53==REQUEST: {"rest_action":"get_live_time"}
+1477567433:2016-10-27 14:23:53==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567433:2016-10-27 14:23:53==
+1477567433:2016-10-27 14:23:53==Inside 1
+1477567433:2016-10-27 14:23:53==Inside 1
+1477567433:2016-10-27 14:23:53==Inside 1
+1477567433:2016-10-27 14:23:53==Inside 1
+1477567433:2016-10-27 14:23:53==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":26,"new_price":49},{"auction_id":3,"end_time":11,"new_price":22},{"auction_id":2,"end_time":3,"new_price":29},{"auction_id":1,"end_time":18,"new_price":15}]}
+1477567434:2016-10-27 14:23:54==REQUEST: {"rest_action":"get_live_time"}
+1477567434:2016-10-27 14:23:54==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567434:2016-10-27 14:23:54==
+1477567434:2016-10-27 14:23:54==Inside 1
+1477567434:2016-10-27 14:23:54==Inside 1
+1477567434:2016-10-27 14:23:54==Inside 1
+1477567434:2016-10-27 14:23:54==Inside 1
+1477567434:2016-10-27 14:23:54==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":28,"new_price":50},{"auction_id":3,"end_time":23,"new_price":42},{"auction_id":2,"end_time":22,"new_price":26},{"auction_id":1,"end_time":15,"new_price":38}]}
+1477567435:2016-10-27 14:23:55==REQUEST: {"rest_action":"get_live_time"}
+1477567435:2016-10-27 14:23:55==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567435:2016-10-27 14:23:55==
+1477567435:2016-10-27 14:23:55==Inside 1
+1477567435:2016-10-27 14:23:55==Inside 1
+1477567435:2016-10-27 14:23:55==Inside 1
+1477567435:2016-10-27 14:23:55==Inside 1
+1477567435:2016-10-27 14:23:55==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":10},{"auction_id":3,"end_time":25,"new_price":22},{"auction_id":2,"end_time":23,"new_price":45},{"auction_id":1,"end_time":18,"new_price":28}]}
+1477567436:2016-10-27 14:23:56==REQUEST: {"rest_action":"get_live_time"}
+1477567436:2016-10-27 14:23:56==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567436:2016-10-27 14:23:56==
+1477567436:2016-10-27 14:23:56==Inside 1
+1477567436:2016-10-27 14:23:56==Inside 1
+1477567436:2016-10-27 14:23:56==Inside 1
+1477567436:2016-10-27 14:23:56==Inside 1
+1477567436:2016-10-27 14:23:56==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":19,"new_price":16},{"auction_id":3,"end_time":17,"new_price":13},{"auction_id":2,"end_time":18,"new_price":13},{"auction_id":1,"end_time":29,"new_price":12}]}
+1477567437:2016-10-27 14:23:57==REQUEST: {"rest_action":"get_live_time"}
+1477567437:2016-10-27 14:23:57==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567437:2016-10-27 14:23:57==
+1477567437:2016-10-27 14:23:57==Inside 1
+1477567437:2016-10-27 14:23:57==Inside 1
+1477567437:2016-10-27 14:23:57==Inside 1
+1477567437:2016-10-27 14:23:57==Inside 1
+1477567437:2016-10-27 14:23:57==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":10,"new_price":30},{"auction_id":3,"end_time":12,"new_price":13},{"auction_id":2,"end_time":26,"new_price":49},{"auction_id":1,"end_time":30,"new_price":40}]}
+1477567438:2016-10-27 14:23:58==REQUEST: {"rest_action":"get_live_time"}
+1477567438:2016-10-27 14:23:58==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567438:2016-10-27 14:23:58==
+1477567438:2016-10-27 14:23:58==Inside 1
+1477567438:2016-10-27 14:23:58==Inside 1
+1477567438:2016-10-27 14:23:58==Inside 1
+1477567438:2016-10-27 14:23:58==Inside 1
+1477567438:2016-10-27 14:23:58==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":29,"new_price":40},{"auction_id":3,"end_time":17,"new_price":37},{"auction_id":2,"end_time":5,"new_price":11},{"auction_id":1,"end_time":11,"new_price":25}]}
+1477567439:2016-10-27 14:23:59==REQUEST: {"rest_action":"get_live_time"}
+1477567439:2016-10-27 14:23:59==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567439:2016-10-27 14:23:59==
+1477567439:2016-10-27 14:23:59==Inside 1
+1477567439:2016-10-27 14:23:59==Inside 1
+1477567439:2016-10-27 14:23:59==Inside 1
+1477567439:2016-10-27 14:23:59==Inside 1
+1477567439:2016-10-27 14:23:59==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":2,"new_price":16},{"auction_id":3,"end_time":21,"new_price":43},{"auction_id":2,"end_time":1,"new_price":20},{"auction_id":1,"end_time":9,"new_price":36}]}
+1477567440:2016-10-27 14:24:00==REQUEST: {"rest_action":"get_live_time"}
+1477567440:2016-10-27 14:24:00==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567440:2016-10-27 14:24:00==
+1477567440:2016-10-27 14:24:00==Inside 1
+1477567440:2016-10-27 14:24:00==Inside 1
+1477567440:2016-10-27 14:24:00==Inside 1
+1477567440:2016-10-27 14:24:00==Inside 1
+1477567440:2016-10-27 14:24:00==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":13,"new_price":42},{"auction_id":3,"end_time":22,"new_price":10},{"auction_id":2,"end_time":27,"new_price":37},{"auction_id":1,"end_time":3,"new_price":18}]}
+1477567441:2016-10-27 14:24:01==REQUEST: {"rest_action":"get_live_time"}
+1477567441:2016-10-27 14:24:01==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567441:2016-10-27 14:24:01==
+1477567441:2016-10-27 14:24:01==Inside 1
+1477567441:2016-10-27 14:24:01==Inside 1
+1477567441:2016-10-27 14:24:01==Inside 1
+1477567441:2016-10-27 14:24:01==Inside 1
+1477567441:2016-10-27 14:24:01==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":6,"new_price":29},{"auction_id":3,"end_time":9,"new_price":10},{"auction_id":2,"end_time":13,"new_price":21},{"auction_id":1,"end_time":24,"new_price":25}]}
+1477567442:2016-10-27 14:24:02==REQUEST: {"rest_action":"get_live_time"}
+1477567442:2016-10-27 14:24:02==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567442:2016-10-27 14:24:02==
+1477567442:2016-10-27 14:24:02==Inside 1
+1477567442:2016-10-27 14:24:02==Inside 1
+1477567442:2016-10-27 14:24:02==Inside 1
+1477567442:2016-10-27 14:24:02==Inside 1
+1477567442:2016-10-27 14:24:02==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":1,"new_price":23},{"auction_id":3,"end_time":2,"new_price":15},{"auction_id":2,"end_time":11,"new_price":25},{"auction_id":1,"end_time":16,"new_price":26}]}
+1477567443:2016-10-27 14:24:03==REQUEST: {"rest_action":"get_live_time"}
+1477567443:2016-10-27 14:24:03==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567443:2016-10-27 14:24:03==
+1477567443:2016-10-27 14:24:03==Inside 1
+1477567443:2016-10-27 14:24:03==Inside 1
+1477567443:2016-10-27 14:24:03==Inside 1
+1477567443:2016-10-27 14:24:03==Inside 1
+1477567443:2016-10-27 14:24:03==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":17,"new_price":18},{"auction_id":3,"end_time":7,"new_price":33},{"auction_id":2,"end_time":14,"new_price":29},{"auction_id":1,"end_time":7,"new_price":46}]}
+1477567444:2016-10-27 14:24:04==REQUEST: {"rest_action":"get_live_time"}
+1477567444:2016-10-27 14:24:04==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567444:2016-10-27 14:24:04==
+1477567444:2016-10-27 14:24:04==Inside 1
+1477567444:2016-10-27 14:24:04==Inside 1
+1477567444:2016-10-27 14:24:04==Inside 1
+1477567444:2016-10-27 14:24:04==Inside 1
+1477567444:2016-10-27 14:24:04==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":20,"new_price":43},{"auction_id":3,"end_time":29,"new_price":48},{"auction_id":2,"end_time":24,"new_price":33},{"auction_id":1,"end_time":13,"new_price":32}]}
+1477567445:2016-10-27 14:24:05==REQUEST: {"rest_action":"get_live_time"}
+1477567445:2016-10-27 14:24:05==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567445:2016-10-27 14:24:05==
+1477567445:2016-10-27 14:24:05==Inside 1
+1477567445:2016-10-27 14:24:05==Inside 1
+1477567445:2016-10-27 14:24:05==Inside 1
+1477567445:2016-10-27 14:24:05==Inside 1
+1477567445:2016-10-27 14:24:05==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":14,"new_price":17},{"auction_id":3,"end_time":11,"new_price":50},{"auction_id":2,"end_time":30,"new_price":32},{"auction_id":1,"end_time":13,"new_price":34}]}
+1477567446:2016-10-27 14:24:06==REQUEST: {"rest_action":"get_live_time"}
+1477567446:2016-10-27 14:24:06==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567446:2016-10-27 14:24:06==
+1477567446:2016-10-27 14:24:06==Inside 1
+1477567446:2016-10-27 14:24:06==Inside 1
+1477567446:2016-10-27 14:24:06==Inside 1
+1477567446:2016-10-27 14:24:06==Inside 1
+1477567446:2016-10-27 14:24:06==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":11,"new_price":28},{"auction_id":3,"end_time":24,"new_price":33},{"auction_id":2,"end_time":9,"new_price":17},{"auction_id":1,"end_time":15,"new_price":41}]}
+1477567447:2016-10-27 14:24:07==REQUEST: {"rest_action":"get_live_time"}
+1477567447:2016-10-27 14:24:07==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567447:2016-10-27 14:24:07==
+1477567447:2016-10-27 14:24:07==Inside 1
+1477567447:2016-10-27 14:24:07==Inside 1
+1477567447:2016-10-27 14:24:07==Inside 1
+1477567447:2016-10-27 14:24:07==Inside 1
+1477567447:2016-10-27 14:24:07==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":6,"new_price":28},{"auction_id":3,"end_time":28,"new_price":45},{"auction_id":2,"end_time":27,"new_price":45},{"auction_id":1,"end_time":19,"new_price":31}]}
+1477567448:2016-10-27 14:24:08==REQUEST: {"rest_action":"get_live_time"}
+1477567448:2016-10-27 14:24:08==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567448:2016-10-27 14:24:08==
+1477567448:2016-10-27 14:24:08==Inside 1
+1477567448:2016-10-27 14:24:08==Inside 1
+1477567448:2016-10-27 14:24:08==Inside 1
+1477567448:2016-10-27 14:24:08==Inside 1
+1477567448:2016-10-27 14:24:08==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":20,"new_price":33},{"auction_id":3,"end_time":14,"new_price":28},{"auction_id":2,"end_time":5,"new_price":45},{"auction_id":1,"end_time":30,"new_price":34}]}
+1477567449:2016-10-27 14:24:09==REQUEST: {"rest_action":"get_live_time"}
+1477567449:2016-10-27 14:24:09==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567449:2016-10-27 14:24:09==
+1477567449:2016-10-27 14:24:09==Inside 1
+1477567449:2016-10-27 14:24:09==Inside 1
+1477567449:2016-10-27 14:24:09==Inside 1
+1477567449:2016-10-27 14:24:09==Inside 1
+1477567449:2016-10-27 14:24:09==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":2,"new_price":23},{"auction_id":3,"end_time":18,"new_price":11},{"auction_id":2,"end_time":27,"new_price":50},{"auction_id":1,"end_time":19,"new_price":19}]}
+1477567450:2016-10-27 14:24:10==REQUEST: {"rest_action":"get_live_time"}
+1477567450:2016-10-27 14:24:10==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567450:2016-10-27 14:24:10==
+1477567450:2016-10-27 14:24:10==Inside 1
+1477567450:2016-10-27 14:24:10==Inside 1
+1477567450:2016-10-27 14:24:10==Inside 1
+1477567450:2016-10-27 14:24:10==Inside 1
+1477567450:2016-10-27 14:24:10==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":13,"new_price":26},{"auction_id":3,"end_time":25,"new_price":39},{"auction_id":2,"end_time":18,"new_price":22},{"auction_id":1,"end_time":15,"new_price":41}]}
+1477567451:2016-10-27 14:24:11==REQUEST: {"rest_action":"get_live_time"}
+1477567451:2016-10-27 14:24:11==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567451:2016-10-27 14:24:11==
+1477567451:2016-10-27 14:24:11==Inside 1
+1477567451:2016-10-27 14:24:11==Inside 1
+1477567451:2016-10-27 14:24:11==Inside 1
+1477567451:2016-10-27 14:24:11==Inside 1
+1477567451:2016-10-27 14:24:11==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":23,"new_price":26},{"auction_id":3,"end_time":19,"new_price":35},{"auction_id":2,"end_time":8,"new_price":19},{"auction_id":1,"end_time":5,"new_price":47}]}
+1477567452:2016-10-27 14:24:12==REQUEST: {"rest_action":"get_live_time"}
+1477567452:2016-10-27 14:24:12==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567452:2016-10-27 14:24:12==
+1477567452:2016-10-27 14:24:12==Inside 1
+1477567452:2016-10-27 14:24:12==Inside 1
+1477567452:2016-10-27 14:24:12==Inside 1
+1477567452:2016-10-27 14:24:12==Inside 1
+1477567452:2016-10-27 14:24:12==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":25,"new_price":34},{"auction_id":3,"end_time":11,"new_price":48},{"auction_id":2,"end_time":14,"new_price":24},{"auction_id":1,"end_time":17,"new_price":30}]}
+1477567453:2016-10-27 14:24:13==REQUEST: {"rest_action":"get_live_time"}
+1477567453:2016-10-27 14:24:13==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567453:2016-10-27 14:24:13==
+1477567453:2016-10-27 14:24:13==Inside 1
+1477567453:2016-10-27 14:24:13==Inside 1
+1477567453:2016-10-27 14:24:13==Inside 1
+1477567453:2016-10-27 14:24:13==Inside 1
+1477567453:2016-10-27 14:24:13==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":22,"new_price":14},{"auction_id":3,"end_time":17,"new_price":34},{"auction_id":2,"end_time":4,"new_price":16},{"auction_id":1,"end_time":25,"new_price":31}]}
+1477567454:2016-10-27 14:24:14==REQUEST: {"rest_action":"get_live_time"}
+1477567454:2016-10-27 14:24:14==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567454:2016-10-27 14:24:14==
+1477567454:2016-10-27 14:24:14==Inside 1
+1477567454:2016-10-27 14:24:14==Inside 1
+1477567454:2016-10-27 14:24:14==Inside 1
+1477567454:2016-10-27 14:24:14==Inside 1
+1477567454:2016-10-27 14:24:14==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":20,"new_price":35},{"auction_id":3,"end_time":12,"new_price":47},{"auction_id":2,"end_time":20,"new_price":37},{"auction_id":1,"end_time":12,"new_price":43}]}
+1477567455:2016-10-27 14:24:15==REQUEST: {"rest_action":"get_live_time"}
+1477567455:2016-10-27 14:24:15==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567455:2016-10-27 14:24:15==
+1477567455:2016-10-27 14:24:15==Inside 1
+1477567455:2016-10-27 14:24:15==Inside 1
+1477567455:2016-10-27 14:24:15==Inside 1
+1477567455:2016-10-27 14:24:15==Inside 1
+1477567455:2016-10-27 14:24:15==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":27,"new_price":34},{"auction_id":3,"end_time":26,"new_price":42},{"auction_id":2,"end_time":1,"new_price":26},{"auction_id":1,"end_time":9,"new_price":46}]}
+1477567456:2016-10-27 14:24:16==REQUEST: {"rest_action":"get_live_time"}
+1477567456:2016-10-27 14:24:16==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567456:2016-10-27 14:24:16==
+1477567456:2016-10-27 14:24:16==Inside 1
+1477567456:2016-10-27 14:24:16==Inside 1
+1477567456:2016-10-27 14:24:16==Inside 1
+1477567456:2016-10-27 14:24:16==Inside 1
+1477567456:2016-10-27 14:24:16==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":5,"new_price":19},{"auction_id":3,"end_time":13,"new_price":39},{"auction_id":2,"end_time":30,"new_price":41},{"auction_id":1,"end_time":27,"new_price":39}]}
+1477567457:2016-10-27 14:24:17==REQUEST: {"rest_action":"get_live_time"}
+1477567457:2016-10-27 14:24:17==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567457:2016-10-27 14:24:17==
+1477567457:2016-10-27 14:24:17==Inside 1
+1477567457:2016-10-27 14:24:17==Inside 1
+1477567457:2016-10-27 14:24:17==Inside 1
+1477567457:2016-10-27 14:24:17==Inside 1
+1477567457:2016-10-27 14:24:17==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":23,"new_price":37},{"auction_id":3,"end_time":4,"new_price":20},{"auction_id":2,"end_time":24,"new_price":34},{"auction_id":1,"end_time":19,"new_price":28}]}
+1477567458:2016-10-27 14:24:18==REQUEST: {"rest_action":"get_live_time"}
+1477567458:2016-10-27 14:24:18==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567458:2016-10-27 14:24:18==
+1477567458:2016-10-27 14:24:18==Inside 1
+1477567458:2016-10-27 14:24:18==Inside 1
+1477567458:2016-10-27 14:24:18==Inside 1
+1477567458:2016-10-27 14:24:18==Inside 1
+1477567458:2016-10-27 14:24:18==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":7,"new_price":50},{"auction_id":3,"end_time":11,"new_price":45},{"auction_id":2,"end_time":20,"new_price":40},{"auction_id":1,"end_time":21,"new_price":32}]}
+1477567459:2016-10-27 14:24:19==REQUEST: {"rest_action":"get_live_time"}
+1477567459:2016-10-27 14:24:19==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567459:2016-10-27 14:24:19==
+1477567459:2016-10-27 14:24:19==Inside 1
+1477567459:2016-10-27 14:24:19==Inside 1
+1477567459:2016-10-27 14:24:19==Inside 1
+1477567459:2016-10-27 14:24:19==Inside 1
+1477567459:2016-10-27 14:24:19==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":10,"new_price":32},{"auction_id":3,"end_time":10,"new_price":24},{"auction_id":2,"end_time":29,"new_price":35},{"auction_id":1,"end_time":8,"new_price":14}]}
+1477567460:2016-10-27 14:24:20==REQUEST: {"rest_action":"get_live_time"}
+1477567460:2016-10-27 14:24:20==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567460:2016-10-27 14:24:20==
+1477567460:2016-10-27 14:24:20==Inside 1
+1477567460:2016-10-27 14:24:20==Inside 1
+1477567460:2016-10-27 14:24:20==Inside 1
+1477567460:2016-10-27 14:24:20==Inside 1
+1477567460:2016-10-27 14:24:20==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":26,"new_price":36},{"auction_id":3,"end_time":25,"new_price":44},{"auction_id":2,"end_time":13,"new_price":38},{"auction_id":1,"end_time":17,"new_price":16}]}
+1477567461:2016-10-27 14:24:21==REQUEST: {"rest_action":"get_live_time"}
+1477567461:2016-10-27 14:24:21==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567461:2016-10-27 14:24:21==
+1477567461:2016-10-27 14:24:21==Inside 1
+1477567461:2016-10-27 14:24:21==Inside 1
+1477567461:2016-10-27 14:24:21==Inside 1
+1477567461:2016-10-27 14:24:21==Inside 1
+1477567461:2016-10-27 14:24:21==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":12,"new_price":36},{"auction_id":3,"end_time":13,"new_price":16},{"auction_id":2,"end_time":8,"new_price":11},{"auction_id":1,"end_time":19,"new_price":29}]}
+1477567462:2016-10-27 14:24:22==REQUEST: {"rest_action":"get_live_time"}
+1477567462:2016-10-27 14:24:22==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567462:2016-10-27 14:24:22==
+1477567462:2016-10-27 14:24:22==Inside 1
+1477567462:2016-10-27 14:24:22==Inside 1
+1477567462:2016-10-27 14:24:22==Inside 1
+1477567462:2016-10-27 14:24:22==Inside 1
+1477567462:2016-10-27 14:24:22==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":1,"new_price":49},{"auction_id":3,"end_time":11,"new_price":37},{"auction_id":2,"end_time":22,"new_price":10},{"auction_id":1,"end_time":7,"new_price":11}]}
+1477567463:2016-10-27 14:24:23==REQUEST: {"rest_action":"get_live_time"}
+1477567463:2016-10-27 14:24:23==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567463:2016-10-27 14:24:23==
+1477567463:2016-10-27 14:24:23==Inside 1
+1477567463:2016-10-27 14:24:23==Inside 1
+1477567463:2016-10-27 14:24:23==Inside 1
+1477567463:2016-10-27 14:24:23==Inside 1
+1477567463:2016-10-27 14:24:23==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":32},{"auction_id":3,"end_time":12,"new_price":31},{"auction_id":2,"end_time":5,"new_price":36},{"auction_id":1,"end_time":19,"new_price":10}]}
+1477567464:2016-10-27 14:24:24==REQUEST: {"rest_action":"get_live_time"}
+1477567464:2016-10-27 14:24:24==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567464:2016-10-27 14:24:24==
+1477567464:2016-10-27 14:24:24==Inside 1
+1477567464:2016-10-27 14:24:24==Inside 1
+1477567464:2016-10-27 14:24:24==Inside 1
+1477567464:2016-10-27 14:24:24==Inside 1
+1477567464:2016-10-27 14:24:24==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":9,"new_price":27},{"auction_id":3,"end_time":26,"new_price":38},{"auction_id":2,"end_time":5,"new_price":25},{"auction_id":1,"end_time":26,"new_price":30}]}
+1477567465:2016-10-27 14:24:25==REQUEST: {"rest_action":"get_live_time"}
+1477567465:2016-10-27 14:24:25==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567465:2016-10-27 14:24:25==
+1477567465:2016-10-27 14:24:25==Inside 1
+1477567465:2016-10-27 14:24:25==Inside 1
+1477567465:2016-10-27 14:24:25==Inside 1
+1477567465:2016-10-27 14:24:25==Inside 1
+1477567465:2016-10-27 14:24:25==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":1,"new_price":22},{"auction_id":3,"end_time":21,"new_price":21},{"auction_id":2,"end_time":10,"new_price":21},{"auction_id":1,"end_time":23,"new_price":24}]}
+1477567466:2016-10-27 14:24:26==REQUEST: {"rest_action":"get_live_time"}
+1477567466:2016-10-27 14:24:26==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567466:2016-10-27 14:24:26==
+1477567466:2016-10-27 14:24:26==Inside 1
+1477567466:2016-10-27 14:24:26==Inside 1
+1477567466:2016-10-27 14:24:26==Inside 1
+1477567466:2016-10-27 14:24:26==Inside 1
+1477567466:2016-10-27 14:24:26==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":13},{"auction_id":3,"end_time":2,"new_price":48},{"auction_id":2,"end_time":4,"new_price":20},{"auction_id":1,"end_time":30,"new_price":37}]}
+1477567467:2016-10-27 14:24:27==REQUEST: {"rest_action":"get_live_time"}
+1477567467:2016-10-27 14:24:27==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567467:2016-10-27 14:24:27==
+1477567467:2016-10-27 14:24:27==Inside 1
+1477567467:2016-10-27 14:24:27==Inside 1
+1477567467:2016-10-27 14:24:27==Inside 1
+1477567467:2016-10-27 14:24:27==Inside 1
+1477567467:2016-10-27 14:24:27==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":24,"new_price":25},{"auction_id":3,"end_time":6,"new_price":48},{"auction_id":2,"end_time":1,"new_price":43},{"auction_id":1,"end_time":29,"new_price":22}]}
+1477567468:2016-10-27 14:24:28==REQUEST: {"rest_action":"get_live_time"}
+1477567468:2016-10-27 14:24:28==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567468:2016-10-27 14:24:28==
+1477567468:2016-10-27 14:24:28==Inside 1
+1477567468:2016-10-27 14:24:28==Inside 1
+1477567468:2016-10-27 14:24:28==Inside 1
+1477567468:2016-10-27 14:24:28==Inside 1
+1477567468:2016-10-27 14:24:28==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":42},{"auction_id":3,"end_time":1,"new_price":25},{"auction_id":2,"end_time":5,"new_price":45},{"auction_id":1,"end_time":27,"new_price":17}]}
+1477567469:2016-10-27 14:24:29==REQUEST: {"rest_action":"get_live_time"}
+1477567469:2016-10-27 14:24:29==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567469:2016-10-27 14:24:29==
+1477567469:2016-10-27 14:24:29==Inside 1
+1477567469:2016-10-27 14:24:29==Inside 1
+1477567469:2016-10-27 14:24:29==Inside 1
+1477567469:2016-10-27 14:24:29==Inside 1
+1477567469:2016-10-27 14:24:29==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":5,"new_price":33},{"auction_id":3,"end_time":14,"new_price":30},{"auction_id":2,"end_time":26,"new_price":18},{"auction_id":1,"end_time":26,"new_price":13}]}
+1477567470:2016-10-27 14:24:30==REQUEST: {"rest_action":"get_live_time"}
+1477567470:2016-10-27 14:24:30==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567470:2016-10-27 14:24:30==
+1477567470:2016-10-27 14:24:30==Inside 1
+1477567470:2016-10-27 14:24:30==Inside 1
+1477567470:2016-10-27 14:24:30==Inside 1
+1477567470:2016-10-27 14:24:30==Inside 1
+1477567470:2016-10-27 14:24:30==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":9,"new_price":46},{"auction_id":3,"end_time":2,"new_price":26},{"auction_id":2,"end_time":5,"new_price":10},{"auction_id":1,"end_time":3,"new_price":48}]}
+1477567471:2016-10-27 14:24:31==REQUEST: {"rest_action":"get_live_time"}
+1477567471:2016-10-27 14:24:31==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567471:2016-10-27 14:24:31==
+1477567471:2016-10-27 14:24:31==Inside 1
+1477567471:2016-10-27 14:24:31==Inside 1
+1477567471:2016-10-27 14:24:31==Inside 1
+1477567471:2016-10-27 14:24:31==Inside 1
+1477567471:2016-10-27 14:24:31==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":13,"new_price":21},{"auction_id":3,"end_time":27,"new_price":27},{"auction_id":2,"end_time":3,"new_price":44},{"auction_id":1,"end_time":22,"new_price":23}]}
+1477567472:2016-10-27 14:24:32==REQUEST: {"rest_action":"get_live_time"}
+1477567472:2016-10-27 14:24:32==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567472:2016-10-27 14:24:32==
+1477567472:2016-10-27 14:24:32==Inside 1
+1477567472:2016-10-27 14:24:32==Inside 1
+1477567472:2016-10-27 14:24:32==Inside 1
+1477567472:2016-10-27 14:24:32==Inside 1
+1477567472:2016-10-27 14:24:32==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":19,"new_price":39},{"auction_id":3,"end_time":22,"new_price":42},{"auction_id":2,"end_time":18,"new_price":35},{"auction_id":1,"end_time":30,"new_price":40}]}
+1477567473:2016-10-27 14:24:33==REQUEST: {"rest_action":"get_live_time"}
+1477567473:2016-10-27 14:24:33==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567473:2016-10-27 14:24:33==
+1477567473:2016-10-27 14:24:33==Inside 1
+1477567473:2016-10-27 14:24:33==Inside 1
+1477567473:2016-10-27 14:24:33==Inside 1
+1477567473:2016-10-27 14:24:33==Inside 1
+1477567473:2016-10-27 14:24:33==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":6,"new_price":27},{"auction_id":3,"end_time":8,"new_price":11},{"auction_id":2,"end_time":20,"new_price":13},{"auction_id":1,"end_time":4,"new_price":48}]}
+1477567474:2016-10-27 14:24:34==REQUEST: {"rest_action":"get_live_time"}
+1477567474:2016-10-27 14:24:34==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567474:2016-10-27 14:24:34==
+1477567474:2016-10-27 14:24:34==Inside 1
+1477567474:2016-10-27 14:24:34==Inside 1
+1477567474:2016-10-27 14:24:34==Inside 1
+1477567474:2016-10-27 14:24:34==Inside 1
+1477567474:2016-10-27 14:24:34==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":30,"new_price":16},{"auction_id":3,"end_time":11,"new_price":14},{"auction_id":2,"end_time":6,"new_price":28},{"auction_id":1,"end_time":2,"new_price":33}]}
+1477567475:2016-10-27 14:24:35==REQUEST: {"rest_action":"get_live_time"}
+1477567475:2016-10-27 14:24:35==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567475:2016-10-27 14:24:35==
+1477567475:2016-10-27 14:24:35==Inside 1
+1477567475:2016-10-27 14:24:35==Inside 1
+1477567475:2016-10-27 14:24:35==Inside 1
+1477567475:2016-10-27 14:24:35==Inside 1
+1477567475:2016-10-27 14:24:35==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":22,"new_price":47},{"auction_id":3,"end_time":30,"new_price":43},{"auction_id":2,"end_time":23,"new_price":39},{"auction_id":1,"end_time":5,"new_price":25}]}
+1477567476:2016-10-27 14:24:36==REQUEST: {"rest_action":"get_live_time"}
+1477567476:2016-10-27 14:24:36==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567476:2016-10-27 14:24:36==
+1477567476:2016-10-27 14:24:36==Inside 1
+1477567476:2016-10-27 14:24:36==Inside 1
+1477567476:2016-10-27 14:24:36==Inside 1
+1477567476:2016-10-27 14:24:36==Inside 1
+1477567476:2016-10-27 14:24:36==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":13,"new_price":45},{"auction_id":3,"end_time":5,"new_price":10},{"auction_id":2,"end_time":15,"new_price":15},{"auction_id":1,"end_time":23,"new_price":37}]}
+1477567477:2016-10-27 14:24:37==REQUEST: {"rest_action":"get_live_time"}
+1477567477:2016-10-27 14:24:37==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567477:2016-10-27 14:24:37==
+1477567477:2016-10-27 14:24:37==Inside 1
+1477567477:2016-10-27 14:24:37==Inside 1
+1477567477:2016-10-27 14:24:37==Inside 1
+1477567477:2016-10-27 14:24:37==Inside 1
+1477567477:2016-10-27 14:24:37==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":17,"new_price":50},{"auction_id":3,"end_time":21,"new_price":18},{"auction_id":2,"end_time":3,"new_price":42},{"auction_id":1,"end_time":5,"new_price":12}]}
+1477567478:2016-10-27 14:24:38==REQUEST: {"rest_action":"get_live_time"}
+1477567478:2016-10-27 14:24:38==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567478:2016-10-27 14:24:38==
+1477567478:2016-10-27 14:24:38==Inside 1
+1477567478:2016-10-27 14:24:38==Inside 1
+1477567478:2016-10-27 14:24:38==Inside 1
+1477567478:2016-10-27 14:24:38==Inside 1
+1477567478:2016-10-27 14:24:38==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":29,"new_price":31},{"auction_id":3,"end_time":5,"new_price":15},{"auction_id":2,"end_time":29,"new_price":18},{"auction_id":1,"end_time":22,"new_price":37}]}
+1477567479:2016-10-27 14:24:39==REQUEST: {"rest_action":"get_live_time"}
+1477567479:2016-10-27 14:24:39==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567479:2016-10-27 14:24:39==
+1477567479:2016-10-27 14:24:39==Inside 1
+1477567479:2016-10-27 14:24:39==Inside 1
+1477567479:2016-10-27 14:24:39==Inside 1
+1477567479:2016-10-27 14:24:39==Inside 1
+1477567479:2016-10-27 14:24:39==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":4,"new_price":38},{"auction_id":3,"end_time":15,"new_price":46},{"auction_id":2,"end_time":13,"new_price":36},{"auction_id":1,"end_time":8,"new_price":44}]}
+1477567480:2016-10-27 14:24:40==REQUEST: {"rest_action":"get_live_time"}
+1477567480:2016-10-27 14:24:40==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567480:2016-10-27 14:24:40==
+1477567480:2016-10-27 14:24:40==Inside 1
+1477567480:2016-10-27 14:24:40==Inside 1
+1477567480:2016-10-27 14:24:40==Inside 1
+1477567480:2016-10-27 14:24:40==Inside 1
+1477567480:2016-10-27 14:24:40==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":16,"new_price":26},{"auction_id":3,"end_time":26,"new_price":50},{"auction_id":2,"end_time":17,"new_price":34},{"auction_id":1,"end_time":20,"new_price":14}]}
+1477567481:2016-10-27 14:24:41==REQUEST: {"rest_action":"get_live_time"}
+1477567481:2016-10-27 14:24:41==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567481:2016-10-27 14:24:41==
+1477567481:2016-10-27 14:24:41==Inside 1
+1477567481:2016-10-27 14:24:41==Inside 1
+1477567481:2016-10-27 14:24:41==Inside 1
+1477567481:2016-10-27 14:24:41==Inside 1
+1477567481:2016-10-27 14:24:41==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":19,"new_price":23},{"auction_id":3,"end_time":10,"new_price":37},{"auction_id":2,"end_time":4,"new_price":29},{"auction_id":1,"end_time":23,"new_price":13}]}
+1477567482:2016-10-27 14:24:42==REQUEST: {"rest_action":"get_live_time"}
+1477567482:2016-10-27 14:24:42==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567482:2016-10-27 14:24:42==
+1477567482:2016-10-27 14:24:42==Inside 1
+1477567482:2016-10-27 14:24:42==Inside 1
+1477567482:2016-10-27 14:24:42==Inside 1
+1477567482:2016-10-27 14:24:42==Inside 1
+1477567482:2016-10-27 14:24:42==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":30,"new_price":46},{"auction_id":3,"end_time":7,"new_price":48},{"auction_id":2,"end_time":4,"new_price":47},{"auction_id":1,"end_time":19,"new_price":20}]}
+1477567483:2016-10-27 14:24:43==REQUEST: {"rest_action":"get_live_time"}
+1477567483:2016-10-27 14:24:43==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567483:2016-10-27 14:24:43==
+1477567483:2016-10-27 14:24:43==Inside 1
+1477567483:2016-10-27 14:24:43==Inside 1
+1477567483:2016-10-27 14:24:43==Inside 1
+1477567483:2016-10-27 14:24:43==Inside 1
+1477567483:2016-10-27 14:24:43==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":19,"new_price":14},{"auction_id":3,"end_time":4,"new_price":10},{"auction_id":2,"end_time":23,"new_price":26},{"auction_id":1,"end_time":26,"new_price":20}]}
+1477567484:2016-10-27 14:24:44==REQUEST: {"rest_action":"get_live_time"}
+1477567484:2016-10-27 14:24:44==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567484:2016-10-27 14:24:44==
+1477567484:2016-10-27 14:24:44==Inside 1
+1477567484:2016-10-27 14:24:44==Inside 1
+1477567484:2016-10-27 14:24:44==Inside 1
+1477567484:2016-10-27 14:24:44==Inside 1
+1477567484:2016-10-27 14:24:44==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":25,"new_price":38},{"auction_id":3,"end_time":8,"new_price":23},{"auction_id":2,"end_time":10,"new_price":45},{"auction_id":1,"end_time":14,"new_price":47}]}
+1477567485:2016-10-27 14:24:45==REQUEST: {"rest_action":"get_live_time"}
+1477567485:2016-10-27 14:24:45==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567485:2016-10-27 14:24:45==
+1477567485:2016-10-27 14:24:45==Inside 1
+1477567485:2016-10-27 14:24:45==Inside 1
+1477567485:2016-10-27 14:24:45==Inside 1
+1477567485:2016-10-27 14:24:45==Inside 1
+1477567485:2016-10-27 14:24:45==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":7,"new_price":40},{"auction_id":3,"end_time":18,"new_price":23},{"auction_id":2,"end_time":7,"new_price":23},{"auction_id":1,"end_time":13,"new_price":18}]}
+1477567486:2016-10-27 14:24:46==REQUEST: {"rest_action":"get_live_time"}
+1477567486:2016-10-27 14:24:46==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567486:2016-10-27 14:24:46==
+1477567486:2016-10-27 14:24:46==Inside 1
+1477567486:2016-10-27 14:24:46==Inside 1
+1477567486:2016-10-27 14:24:46==Inside 1
+1477567486:2016-10-27 14:24:46==Inside 1
+1477567486:2016-10-27 14:24:46==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":7,"new_price":35},{"auction_id":3,"end_time":5,"new_price":23},{"auction_id":2,"end_time":17,"new_price":42},{"auction_id":1,"end_time":18,"new_price":16}]}
+1477567487:2016-10-27 14:24:47==REQUEST: {"rest_action":"get_live_time"}
+1477567487:2016-10-27 14:24:47==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567487:2016-10-27 14:24:47==
+1477567487:2016-10-27 14:24:47==Inside 1
+1477567487:2016-10-27 14:24:47==Inside 1
+1477567487:2016-10-27 14:24:47==Inside 1
+1477567487:2016-10-27 14:24:47==Inside 1
+1477567487:2016-10-27 14:24:47==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":28,"new_price":39},{"auction_id":3,"end_time":6,"new_price":36},{"auction_id":2,"end_time":4,"new_price":11},{"auction_id":1,"end_time":28,"new_price":47}]}
+1477567488:2016-10-27 14:24:48==REQUEST: {"rest_action":"get_live_time"}
+1477567488:2016-10-27 14:24:48==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567488:2016-10-27 14:24:48==
+1477567488:2016-10-27 14:24:48==Inside 1
+1477567488:2016-10-27 14:24:48==Inside 1
+1477567488:2016-10-27 14:24:48==Inside 1
+1477567488:2016-10-27 14:24:48==Inside 1
+1477567488:2016-10-27 14:24:48==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":22,"new_price":16},{"auction_id":3,"end_time":8,"new_price":11},{"auction_id":2,"end_time":1,"new_price":38},{"auction_id":1,"end_time":29,"new_price":19}]}
+1477567489:2016-10-27 14:24:49==REQUEST: {"rest_action":"get_live_time"}
+1477567489:2016-10-27 14:24:49==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567489:2016-10-27 14:24:49==
+1477567489:2016-10-27 14:24:49==Inside 1
+1477567489:2016-10-27 14:24:49==Inside 1
+1477567489:2016-10-27 14:24:49==Inside 1
+1477567489:2016-10-27 14:24:49==Inside 1
+1477567489:2016-10-27 14:24:49==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":14,"new_price":31},{"auction_id":3,"end_time":17,"new_price":37},{"auction_id":2,"end_time":26,"new_price":49},{"auction_id":1,"end_time":27,"new_price":13}]}
+1477567490:2016-10-27 14:24:50==REQUEST: {"rest_action":"get_live_time"}
+1477567490:2016-10-27 14:24:50==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567490:2016-10-27 14:24:50==
+1477567490:2016-10-27 14:24:50==Inside 1
+1477567490:2016-10-27 14:24:50==Inside 1
+1477567490:2016-10-27 14:24:50==Inside 1
+1477567490:2016-10-27 14:24:50==Inside 1
+1477567490:2016-10-27 14:24:50==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":19,"new_price":11},{"auction_id":3,"end_time":13,"new_price":15},{"auction_id":2,"end_time":25,"new_price":50},{"auction_id":1,"end_time":10,"new_price":39}]}
+1477567491:2016-10-27 14:24:51==REQUEST: {"rest_action":"get_live_time"}
+1477567491:2016-10-27 14:24:51==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567491:2016-10-27 14:24:51==
+1477567491:2016-10-27 14:24:51==Inside 1
+1477567491:2016-10-27 14:24:51==Inside 1
+1477567491:2016-10-27 14:24:51==Inside 1
+1477567491:2016-10-27 14:24:51==Inside 1
+1477567491:2016-10-27 14:24:51==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":22,"new_price":29},{"auction_id":3,"end_time":12,"new_price":43},{"auction_id":2,"end_time":16,"new_price":22},{"auction_id":1,"end_time":22,"new_price":19}]}
+1477567492:2016-10-27 14:24:52==REQUEST: {"rest_action":"get_live_time"}
+1477567492:2016-10-27 14:24:52==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567492:2016-10-27 14:24:52==
+1477567492:2016-10-27 14:24:52==Inside 1
+1477567492:2016-10-27 14:24:52==Inside 1
+1477567492:2016-10-27 14:24:52==Inside 1
+1477567492:2016-10-27 14:24:52==Inside 1
+1477567492:2016-10-27 14:24:52==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":14,"new_price":49},{"auction_id":3,"end_time":9,"new_price":29},{"auction_id":2,"end_time":20,"new_price":18},{"auction_id":1,"end_time":22,"new_price":13}]}
+1477567493:2016-10-27 14:24:53==REQUEST: {"rest_action":"get_live_time"}
+1477567493:2016-10-27 14:24:53==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567493:2016-10-27 14:24:53==
+1477567493:2016-10-27 14:24:53==Inside 1
+1477567493:2016-10-27 14:24:53==Inside 1
+1477567493:2016-10-27 14:24:53==Inside 1
+1477567493:2016-10-27 14:24:53==Inside 1
+1477567493:2016-10-27 14:24:53==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":23,"new_price":21},{"auction_id":3,"end_time":23,"new_price":34},{"auction_id":2,"end_time":8,"new_price":35},{"auction_id":1,"end_time":21,"new_price":44}]}
+1477567494:2016-10-27 14:24:54==REQUEST: {"rest_action":"get_live_time"}
+1477567494:2016-10-27 14:24:54==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567494:2016-10-27 14:24:54==
+1477567494:2016-10-27 14:24:54==Inside 1
+1477567494:2016-10-27 14:24:54==Inside 1
+1477567494:2016-10-27 14:24:54==Inside 1
+1477567494:2016-10-27 14:24:54==Inside 1
+1477567494:2016-10-27 14:24:54==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":20,"new_price":13},{"auction_id":3,"end_time":30,"new_price":29},{"auction_id":2,"end_time":3,"new_price":22},{"auction_id":1,"end_time":6,"new_price":42}]}
+1477567495:2016-10-27 14:24:55==REQUEST: {"rest_action":"get_live_time"}
+1477567495:2016-10-27 14:24:55==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567495:2016-10-27 14:24:55==
+1477567495:2016-10-27 14:24:55==Inside 1
+1477567495:2016-10-27 14:24:55==Inside 1
+1477567495:2016-10-27 14:24:55==Inside 1
+1477567495:2016-10-27 14:24:55==Inside 1
+1477567495:2016-10-27 14:24:55==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":24,"new_price":33},{"auction_id":3,"end_time":19,"new_price":21},{"auction_id":2,"end_time":27,"new_price":23},{"auction_id":1,"end_time":16,"new_price":23}]}
+1477567496:2016-10-27 14:24:56==REQUEST: {"rest_action":"get_live_time"}
+1477567496:2016-10-27 14:24:56==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567496:2016-10-27 14:24:56==
+1477567496:2016-10-27 14:24:56==Inside 1
+1477567496:2016-10-27 14:24:56==Inside 1
+1477567496:2016-10-27 14:24:56==Inside 1
+1477567496:2016-10-27 14:24:56==Inside 1
+1477567496:2016-10-27 14:24:56==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":10,"new_price":42},{"auction_id":3,"end_time":25,"new_price":49},{"auction_id":2,"end_time":1,"new_price":31},{"auction_id":1,"end_time":2,"new_price":41}]}
+1477567497:2016-10-27 14:24:57==REQUEST: {"rest_action":"get_live_time"}
+1477567497:2016-10-27 14:24:57==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567497:2016-10-27 14:24:57==
+1477567497:2016-10-27 14:24:57==Inside 1
+1477567497:2016-10-27 14:24:57==Inside 1
+1477567497:2016-10-27 14:24:57==Inside 1
+1477567497:2016-10-27 14:24:57==Inside 1
+1477567497:2016-10-27 14:24:57==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":24,"new_price":42},{"auction_id":3,"end_time":11,"new_price":11},{"auction_id":2,"end_time":13,"new_price":11},{"auction_id":1,"end_time":27,"new_price":13}]}
+1477567498:2016-10-27 14:24:58==REQUEST: {"rest_action":"get_live_time"}
+1477567498:2016-10-27 14:24:58==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567498:2016-10-27 14:24:58==
+1477567498:2016-10-27 14:24:58==Inside 1
+1477567498:2016-10-27 14:24:58==Inside 1
+1477567498:2016-10-27 14:24:58==Inside 1
+1477567498:2016-10-27 14:24:58==Inside 1
+1477567498:2016-10-27 14:24:58==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":4,"new_price":45},{"auction_id":3,"end_time":18,"new_price":18},{"auction_id":2,"end_time":6,"new_price":41},{"auction_id":1,"end_time":1,"new_price":48}]}
+1477567499:2016-10-27 14:24:59==REQUEST: {"rest_action":"get_live_time"}
+1477567499:2016-10-27 14:24:59==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567499:2016-10-27 14:24:59==
+1477567499:2016-10-27 14:24:59==Inside 1
+1477567499:2016-10-27 14:24:59==Inside 1
+1477567499:2016-10-27 14:24:59==Inside 1
+1477567499:2016-10-27 14:24:59==Inside 1
+1477567499:2016-10-27 14:24:59==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":11,"new_price":35},{"auction_id":3,"end_time":7,"new_price":19},{"auction_id":2,"end_time":29,"new_price":40},{"auction_id":1,"end_time":17,"new_price":21}]}
+1477567500:2016-10-27 14:25:00==REQUEST: {"rest_action":"get_live_time"}
+1477567500:2016-10-27 14:25:00==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567500:2016-10-27 14:25:00==
+1477567500:2016-10-27 14:25:00==Inside 1
+1477567500:2016-10-27 14:25:00==Inside 1
+1477567500:2016-10-27 14:25:00==Inside 1
+1477567500:2016-10-27 14:25:00==Inside 1
+1477567500:2016-10-27 14:25:00==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":17,"new_price":24},{"auction_id":3,"end_time":8,"new_price":33},{"auction_id":2,"end_time":26,"new_price":21},{"auction_id":1,"end_time":11,"new_price":36}]}
+1477567501:2016-10-27 14:25:01==REQUEST: {"rest_action":"get_live_time"}
+1477567501:2016-10-27 14:25:01==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567501:2016-10-27 14:25:01==
+1477567501:2016-10-27 14:25:01==Inside 1
+1477567501:2016-10-27 14:25:01==Inside 1
+1477567501:2016-10-27 14:25:01==Inside 1
+1477567501:2016-10-27 14:25:01==Inside 1
+1477567501:2016-10-27 14:25:01==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":3,"new_price":38},{"auction_id":3,"end_time":21,"new_price":31},{"auction_id":2,"end_time":23,"new_price":33},{"auction_id":1,"end_time":19,"new_price":45}]}
+1477567502:2016-10-27 14:25:02==REQUEST: {"rest_action":"get_live_time"}
+1477567502:2016-10-27 14:25:02==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567502:2016-10-27 14:25:02==
+1477567502:2016-10-27 14:25:02==Inside 1
+1477567502:2016-10-27 14:25:02==Inside 1
+1477567502:2016-10-27 14:25:02==Inside 1
+1477567502:2016-10-27 14:25:02==Inside 1
+1477567502:2016-10-27 14:25:02==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":14,"new_price":17},{"auction_id":3,"end_time":3,"new_price":35},{"auction_id":2,"end_time":29,"new_price":14},{"auction_id":1,"end_time":17,"new_price":22}]}
+1477567503:2016-10-27 14:25:03==REQUEST: {"rest_action":"get_live_time"}
+1477567503:2016-10-27 14:25:03==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567503:2016-10-27 14:25:03==
+1477567503:2016-10-27 14:25:03==Inside 1
+1477567503:2016-10-27 14:25:03==Inside 1
+1477567503:2016-10-27 14:25:03==Inside 1
+1477567503:2016-10-27 14:25:03==Inside 1
+1477567503:2016-10-27 14:25:03==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":22,"new_price":42},{"auction_id":3,"end_time":16,"new_price":38},{"auction_id":2,"end_time":17,"new_price":12},{"auction_id":1,"end_time":30,"new_price":14}]}
+1477567504:2016-10-27 14:25:04==REQUEST: {"rest_action":"get_live_time"}
+1477567504:2016-10-27 14:25:04==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567504:2016-10-27 14:25:04==
+1477567504:2016-10-27 14:25:04==Inside 1
+1477567504:2016-10-27 14:25:04==Inside 1
+1477567504:2016-10-27 14:25:04==Inside 1
+1477567504:2016-10-27 14:25:04==Inside 1
+1477567504:2016-10-27 14:25:04==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":13,"new_price":18},{"auction_id":3,"end_time":21,"new_price":21},{"auction_id":2,"end_time":15,"new_price":10},{"auction_id":1,"end_time":29,"new_price":33}]}
+1477567505:2016-10-27 14:25:05==REQUEST: {"rest_action":"get_live_time"}
+1477567505:2016-10-27 14:25:05==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567505:2016-10-27 14:25:05==
+1477567505:2016-10-27 14:25:05==Inside 1
+1477567505:2016-10-27 14:25:05==Inside 1
+1477567505:2016-10-27 14:25:05==Inside 1
+1477567505:2016-10-27 14:25:05==Inside 1
+1477567505:2016-10-27 14:25:05==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":22,"new_price":35},{"auction_id":3,"end_time":3,"new_price":29},{"auction_id":2,"end_time":6,"new_price":38},{"auction_id":1,"end_time":11,"new_price":36}]}
+1477567506:2016-10-27 14:25:06==REQUEST: {"rest_action":"get_live_time"}
+1477567506:2016-10-27 14:25:06==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567506:2016-10-27 14:25:06==
+1477567506:2016-10-27 14:25:06==Inside 1
+1477567506:2016-10-27 14:25:06==Inside 1
+1477567506:2016-10-27 14:25:06==Inside 1
+1477567506:2016-10-27 14:25:06==Inside 1
+1477567506:2016-10-27 14:25:06==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":27,"new_price":27},{"auction_id":3,"end_time":8,"new_price":44},{"auction_id":2,"end_time":16,"new_price":43},{"auction_id":1,"end_time":4,"new_price":20}]}
+1477567507:2016-10-27 14:25:07==REQUEST: {"rest_action":"get_live_time"}
+1477567507:2016-10-27 14:25:07==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567507:2016-10-27 14:25:07==
+1477567507:2016-10-27 14:25:07==Inside 1
+1477567507:2016-10-27 14:25:07==Inside 1
+1477567507:2016-10-27 14:25:07==Inside 1
+1477567507:2016-10-27 14:25:07==Inside 1
+1477567507:2016-10-27 14:25:07==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":19,"new_price":36},{"auction_id":3,"end_time":29,"new_price":16},{"auction_id":2,"end_time":22,"new_price":47},{"auction_id":1,"end_time":8,"new_price":15}]}
+1477567508:2016-10-27 14:25:08==REQUEST: {"rest_action":"get_live_time"}
+1477567508:2016-10-27 14:25:08==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567508:2016-10-27 14:25:08==
+1477567508:2016-10-27 14:25:08==Inside 1
+1477567508:2016-10-27 14:25:08==Inside 1
+1477567508:2016-10-27 14:25:08==Inside 1
+1477567508:2016-10-27 14:25:08==Inside 1
+1477567508:2016-10-27 14:25:08==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":4,"new_price":47},{"auction_id":3,"end_time":13,"new_price":34},{"auction_id":2,"end_time":29,"new_price":25},{"auction_id":1,"end_time":6,"new_price":37}]}
+1477567509:2016-10-27 14:25:09==REQUEST: {"rest_action":"get_live_time"}
+1477567509:2016-10-27 14:25:09==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567509:2016-10-27 14:25:09==
+1477567509:2016-10-27 14:25:09==Inside 1
+1477567509:2016-10-27 14:25:09==Inside 1
+1477567509:2016-10-27 14:25:09==Inside 1
+1477567509:2016-10-27 14:25:09==Inside 1
+1477567509:2016-10-27 14:25:09==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":30,"new_price":20},{"auction_id":3,"end_time":4,"new_price":18},{"auction_id":2,"end_time":30,"new_price":28},{"auction_id":1,"end_time":26,"new_price":44}]}
+1477567510:2016-10-27 14:25:10==REQUEST: {"rest_action":"get_live_time"}
+1477567510:2016-10-27 14:25:10==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567510:2016-10-27 14:25:10==
+1477567510:2016-10-27 14:25:10==Inside 1
+1477567510:2016-10-27 14:25:10==Inside 1
+1477567510:2016-10-27 14:25:10==Inside 1
+1477567510:2016-10-27 14:25:10==Inside 1
+1477567510:2016-10-27 14:25:10==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":27,"new_price":13},{"auction_id":3,"end_time":21,"new_price":26},{"auction_id":2,"end_time":28,"new_price":43},{"auction_id":1,"end_time":20,"new_price":31}]}
+1477567511:2016-10-27 14:25:11==REQUEST: {"rest_action":"get_live_time"}
+1477567511:2016-10-27 14:25:11==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567511:2016-10-27 14:25:11==
+1477567511:2016-10-27 14:25:11==Inside 1
+1477567511:2016-10-27 14:25:11==Inside 1
+1477567511:2016-10-27 14:25:11==Inside 1
+1477567511:2016-10-27 14:25:11==Inside 1
+1477567511:2016-10-27 14:25:11==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":14,"new_price":34},{"auction_id":3,"end_time":21,"new_price":17},{"auction_id":2,"end_time":16,"new_price":47},{"auction_id":1,"end_time":11,"new_price":35}]}
+1477567512:2016-10-27 14:25:12==REQUEST: {"rest_action":"get_live_time"}
+1477567512:2016-10-27 14:25:12==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567512:2016-10-27 14:25:12==
+1477567512:2016-10-27 14:25:12==Inside 1
+1477567512:2016-10-27 14:25:12==Inside 1
+1477567512:2016-10-27 14:25:12==Inside 1
+1477567512:2016-10-27 14:25:12==Inside 1
+1477567512:2016-10-27 14:25:12==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":26,"new_price":41},{"auction_id":3,"end_time":7,"new_price":42},{"auction_id":2,"end_time":5,"new_price":26},{"auction_id":1,"end_time":14,"new_price":15}]}
+1477567513:2016-10-27 14:25:13==REQUEST: {"rest_action":"get_live_time"}
+1477567513:2016-10-27 14:25:13==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567513:2016-10-27 14:25:13==
+1477567513:2016-10-27 14:25:13==Inside 1
+1477567513:2016-10-27 14:25:13==Inside 1
+1477567513:2016-10-27 14:25:13==Inside 1
+1477567513:2016-10-27 14:25:13==Inside 1
+1477567513:2016-10-27 14:25:13==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":21,"new_price":33},{"auction_id":3,"end_time":10,"new_price":36},{"auction_id":2,"end_time":2,"new_price":16},{"auction_id":1,"end_time":15,"new_price":47}]}
+1477567514:2016-10-27 14:25:14==REQUEST: {"rest_action":"get_live_time"}
+1477567514:2016-10-27 14:25:14==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567514:2016-10-27 14:25:14==
+1477567514:2016-10-27 14:25:14==Inside 1
+1477567514:2016-10-27 14:25:14==Inside 1
+1477567514:2016-10-27 14:25:14==Inside 1
+1477567514:2016-10-27 14:25:14==Inside 1
+1477567514:2016-10-27 14:25:14==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":16},{"auction_id":3,"end_time":10,"new_price":17},{"auction_id":2,"end_time":30,"new_price":50},{"auction_id":1,"end_time":21,"new_price":28}]}
+1477567515:2016-10-27 14:25:15==REQUEST: {"rest_action":"get_live_time"}
+1477567515:2016-10-27 14:25:15==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567515:2016-10-27 14:25:15==
+1477567515:2016-10-27 14:25:15==Inside 1
+1477567515:2016-10-27 14:25:15==Inside 1
+1477567515:2016-10-27 14:25:15==Inside 1
+1477567515:2016-10-27 14:25:15==Inside 1
+1477567515:2016-10-27 14:25:15==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":25},{"auction_id":3,"end_time":19,"new_price":14},{"auction_id":2,"end_time":9,"new_price":49},{"auction_id":1,"end_time":22,"new_price":15}]}
+1477567516:2016-10-27 14:25:16==REQUEST: {"rest_action":"get_live_time"}
+1477567516:2016-10-27 14:25:16==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567516:2016-10-27 14:25:16==
+1477567516:2016-10-27 14:25:16==Inside 1
+1477567516:2016-10-27 14:25:16==Inside 1
+1477567516:2016-10-27 14:25:16==Inside 1
+1477567516:2016-10-27 14:25:16==Inside 1
+1477567516:2016-10-27 14:25:16==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":22,"new_price":49},{"auction_id":3,"end_time":29,"new_price":45},{"auction_id":2,"end_time":11,"new_price":26},{"auction_id":1,"end_time":1,"new_price":11}]}
+1477567517:2016-10-27 14:25:17==REQUEST: {"rest_action":"get_live_time"}
+1477567517:2016-10-27 14:25:17==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567517:2016-10-27 14:25:17==
+1477567517:2016-10-27 14:25:17==Inside 1
+1477567517:2016-10-27 14:25:17==Inside 1
+1477567517:2016-10-27 14:25:17==Inside 1
+1477567517:2016-10-27 14:25:17==Inside 1
+1477567517:2016-10-27 14:25:17==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":30,"new_price":23},{"auction_id":3,"end_time":21,"new_price":10},{"auction_id":2,"end_time":16,"new_price":16},{"auction_id":1,"end_time":29,"new_price":41}]}
+1477567518:2016-10-27 14:25:18==REQUEST: {"rest_action":"get_live_time"}
+1477567518:2016-10-27 14:25:18==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567518:2016-10-27 14:25:18==
+1477567518:2016-10-27 14:25:18==Inside 1
+1477567518:2016-10-27 14:25:18==Inside 1
+1477567518:2016-10-27 14:25:18==Inside 1
+1477567518:2016-10-27 14:25:18==Inside 1
+1477567518:2016-10-27 14:25:18==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":10,"new_price":21},{"auction_id":3,"end_time":29,"new_price":22},{"auction_id":2,"end_time":8,"new_price":36},{"auction_id":1,"end_time":22,"new_price":44}]}
+1477567519:2016-10-27 14:25:19==REQUEST: {"rest_action":"get_live_time"}
+1477567519:2016-10-27 14:25:19==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567519:2016-10-27 14:25:19==
+1477567519:2016-10-27 14:25:19==Inside 1
+1477567519:2016-10-27 14:25:19==Inside 1
+1477567519:2016-10-27 14:25:19==Inside 1
+1477567519:2016-10-27 14:25:19==Inside 1
+1477567519:2016-10-27 14:25:19==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":1,"new_price":24},{"auction_id":3,"end_time":29,"new_price":22},{"auction_id":2,"end_time":10,"new_price":37},{"auction_id":1,"end_time":14,"new_price":12}]}
+1477567520:2016-10-27 14:25:20==REQUEST: {"rest_action":"get_live_time"}
+1477567520:2016-10-27 14:25:20==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567520:2016-10-27 14:25:20==
+1477567520:2016-10-27 14:25:20==Inside 1
+1477567520:2016-10-27 14:25:20==Inside 1
+1477567520:2016-10-27 14:25:20==Inside 1
+1477567520:2016-10-27 14:25:20==Inside 1
+1477567520:2016-10-27 14:25:20==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":20,"new_price":26},{"auction_id":3,"end_time":28,"new_price":10},{"auction_id":2,"end_time":24,"new_price":48},{"auction_id":1,"end_time":2,"new_price":41}]}
+1477567521:2016-10-27 14:25:21==REQUEST: {"rest_action":"get_live_time"}
+1477567521:2016-10-27 14:25:21==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567521:2016-10-27 14:25:21==
+1477567521:2016-10-27 14:25:21==Inside 1
+1477567521:2016-10-27 14:25:21==Inside 1
+1477567521:2016-10-27 14:25:21==Inside 1
+1477567521:2016-10-27 14:25:21==Inside 1
+1477567521:2016-10-27 14:25:21==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":9,"new_price":39},{"auction_id":3,"end_time":24,"new_price":42},{"auction_id":2,"end_time":26,"new_price":39},{"auction_id":1,"end_time":17,"new_price":17}]}
+1477567522:2016-10-27 14:25:22==REQUEST: {"rest_action":"get_live_time"}
+1477567522:2016-10-27 14:25:22==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567522:2016-10-27 14:25:22==
+1477567522:2016-10-27 14:25:22==Inside 1
+1477567522:2016-10-27 14:25:22==Inside 1
+1477567522:2016-10-27 14:25:22==Inside 1
+1477567522:2016-10-27 14:25:22==Inside 1
+1477567522:2016-10-27 14:25:22==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":30,"new_price":30},{"auction_id":3,"end_time":15,"new_price":19},{"auction_id":2,"end_time":5,"new_price":18},{"auction_id":1,"end_time":3,"new_price":17}]}
+1477567523:2016-10-27 14:25:23==REQUEST: {"rest_action":"get_live_time"}
+1477567523:2016-10-27 14:25:23==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567523:2016-10-27 14:25:23==
+1477567523:2016-10-27 14:25:23==Inside 1
+1477567523:2016-10-27 14:25:23==Inside 1
+1477567523:2016-10-27 14:25:23==Inside 1
+1477567523:2016-10-27 14:25:23==Inside 1
+1477567523:2016-10-27 14:25:23==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":11},{"auction_id":3,"end_time":15,"new_price":46},{"auction_id":2,"end_time":22,"new_price":49},{"auction_id":1,"end_time":29,"new_price":23}]}
+1477567524:2016-10-27 14:25:24==REQUEST: {"rest_action":"get_live_time"}
+1477567524:2016-10-27 14:25:24==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567524:2016-10-27 14:25:24==
+1477567524:2016-10-27 14:25:24==Inside 1
+1477567524:2016-10-27 14:25:24==Inside 1
+1477567524:2016-10-27 14:25:24==Inside 1
+1477567524:2016-10-27 14:25:24==Inside 1
+1477567524:2016-10-27 14:25:24==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":11,"new_price":46},{"auction_id":3,"end_time":11,"new_price":15},{"auction_id":2,"end_time":25,"new_price":25},{"auction_id":1,"end_time":27,"new_price":13}]}
+1477567525:2016-10-27 14:25:25==REQUEST: {"rest_action":"get_live_time"}
+1477567525:2016-10-27 14:25:25==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567525:2016-10-27 14:25:25==
+1477567525:2016-10-27 14:25:25==Inside 1
+1477567525:2016-10-27 14:25:25==Inside 1
+1477567525:2016-10-27 14:25:25==Inside 1
+1477567525:2016-10-27 14:25:25==Inside 1
+1477567525:2016-10-27 14:25:25==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":3,"new_price":37},{"auction_id":3,"end_time":27,"new_price":48},{"auction_id":2,"end_time":12,"new_price":27},{"auction_id":1,"end_time":5,"new_price":24}]}
+1477567526:2016-10-27 14:25:26==REQUEST: {"rest_action":"get_live_time"}
+1477567526:2016-10-27 14:25:26==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567526:2016-10-27 14:25:26==
+1477567526:2016-10-27 14:25:26==Inside 1
+1477567526:2016-10-27 14:25:26==Inside 1
+1477567526:2016-10-27 14:25:26==Inside 1
+1477567526:2016-10-27 14:25:26==Inside 1
+1477567526:2016-10-27 14:25:26==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":28,"new_price":35},{"auction_id":3,"end_time":18,"new_price":13},{"auction_id":2,"end_time":25,"new_price":37},{"auction_id":1,"end_time":8,"new_price":26}]}
+1477567527:2016-10-27 14:25:27==REQUEST: {"rest_action":"get_live_time"}
+1477567527:2016-10-27 14:25:27==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567527:2016-10-27 14:25:27==
+1477567527:2016-10-27 14:25:27==Inside 1
+1477567527:2016-10-27 14:25:27==Inside 1
+1477567527:2016-10-27 14:25:27==Inside 1
+1477567527:2016-10-27 14:25:27==Inside 1
+1477567527:2016-10-27 14:25:27==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":21,"new_price":41},{"auction_id":3,"end_time":10,"new_price":25},{"auction_id":2,"end_time":22,"new_price":20},{"auction_id":1,"end_time":22,"new_price":12}]}
+1477567528:2016-10-27 14:25:28==REQUEST: {"rest_action":"get_live_time"}
+1477567528:2016-10-27 14:25:28==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567528:2016-10-27 14:25:28==
+1477567528:2016-10-27 14:25:28==Inside 1
+1477567528:2016-10-27 14:25:28==Inside 1
+1477567528:2016-10-27 14:25:28==Inside 1
+1477567528:2016-10-27 14:25:28==Inside 1
+1477567528:2016-10-27 14:25:28==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":5,"new_price":12},{"auction_id":3,"end_time":6,"new_price":49},{"auction_id":2,"end_time":14,"new_price":13},{"auction_id":1,"end_time":2,"new_price":31}]}
+1477567529:2016-10-27 14:25:29==REQUEST: {"rest_action":"get_live_time"}
+1477567529:2016-10-27 14:25:29==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567529:2016-10-27 14:25:29==
+1477567529:2016-10-27 14:25:29==Inside 1
+1477567529:2016-10-27 14:25:29==Inside 1
+1477567529:2016-10-27 14:25:29==Inside 1
+1477567529:2016-10-27 14:25:29==Inside 1
+1477567529:2016-10-27 14:25:29==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":23,"new_price":47},{"auction_id":3,"end_time":15,"new_price":14},{"auction_id":2,"end_time":11,"new_price":35},{"auction_id":1,"end_time":15,"new_price":21}]}
+1477567530:2016-10-27 14:25:30==REQUEST: {"rest_action":"get_live_time"}
+1477567530:2016-10-27 14:25:30==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567530:2016-10-27 14:25:30==
+1477567530:2016-10-27 14:25:30==Inside 1
+1477567530:2016-10-27 14:25:30==Inside 1
+1477567530:2016-10-27 14:25:30==Inside 1
+1477567530:2016-10-27 14:25:30==Inside 1
+1477567530:2016-10-27 14:25:30==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":12},{"auction_id":3,"end_time":11,"new_price":12},{"auction_id":2,"end_time":22,"new_price":35},{"auction_id":1,"end_time":14,"new_price":26}]}
+1477567531:2016-10-27 14:25:31==REQUEST: {"rest_action":"get_live_time"}
+1477567531:2016-10-27 14:25:31==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567531:2016-10-27 14:25:31==
+1477567531:2016-10-27 14:25:31==Inside 1
+1477567531:2016-10-27 14:25:31==Inside 1
+1477567531:2016-10-27 14:25:31==Inside 1
+1477567531:2016-10-27 14:25:31==Inside 1
+1477567531:2016-10-27 14:25:31==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":12,"new_price":41},{"auction_id":3,"end_time":24,"new_price":13},{"auction_id":2,"end_time":1,"new_price":31},{"auction_id":1,"end_time":5,"new_price":17}]}
+1477567532:2016-10-27 14:25:32==REQUEST: {"rest_action":"get_live_time"}
+1477567532:2016-10-27 14:25:32==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567532:2016-10-27 14:25:32==
+1477567532:2016-10-27 14:25:32==Inside 1
+1477567532:2016-10-27 14:25:32==Inside 1
+1477567532:2016-10-27 14:25:32==Inside 1
+1477567532:2016-10-27 14:25:32==Inside 1
+1477567532:2016-10-27 14:25:32==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":18,"new_price":24},{"auction_id":3,"end_time":5,"new_price":11},{"auction_id":2,"end_time":14,"new_price":17},{"auction_id":1,"end_time":18,"new_price":17}]}
+1477567533:2016-10-27 14:25:33==REQUEST: {"rest_action":"get_live_time"}
+1477567533:2016-10-27 14:25:33==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567533:2016-10-27 14:25:33==
+1477567533:2016-10-27 14:25:33==Inside 1
+1477567533:2016-10-27 14:25:33==Inside 1
+1477567533:2016-10-27 14:25:33==Inside 1
+1477567533:2016-10-27 14:25:33==Inside 1
+1477567533:2016-10-27 14:25:33==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":4,"new_price":12},{"auction_id":3,"end_time":10,"new_price":28},{"auction_id":2,"end_time":21,"new_price":41},{"auction_id":1,"end_time":22,"new_price":47}]}
+1477567534:2016-10-27 14:25:34==REQUEST: {"rest_action":"get_live_time"}
+1477567534:2016-10-27 14:25:34==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567534:2016-10-27 14:25:34==
+1477567534:2016-10-27 14:25:34==Inside 1
+1477567534:2016-10-27 14:25:34==Inside 1
+1477567534:2016-10-27 14:25:34==Inside 1
+1477567534:2016-10-27 14:25:34==Inside 1
+1477567534:2016-10-27 14:25:34==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":25,"new_price":12},{"auction_id":3,"end_time":30,"new_price":32},{"auction_id":2,"end_time":21,"new_price":27},{"auction_id":1,"end_time":29,"new_price":12}]}
+1477567535:2016-10-27 14:25:35==REQUEST: {"rest_action":"get_live_time"}
+1477567535:2016-10-27 14:25:35==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567535:2016-10-27 14:25:35==
+1477567535:2016-10-27 14:25:35==Inside 1
+1477567535:2016-10-27 14:25:35==Inside 1
+1477567535:2016-10-27 14:25:35==Inside 1
+1477567535:2016-10-27 14:25:35==Inside 1
+1477567535:2016-10-27 14:25:35==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":7,"new_price":40},{"auction_id":3,"end_time":5,"new_price":19},{"auction_id":2,"end_time":8,"new_price":22},{"auction_id":1,"end_time":13,"new_price":44}]}
+1477567536:2016-10-27 14:25:36==REQUEST: {"rest_action":"get_live_time"}
+1477567536:2016-10-27 14:25:36==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567536:2016-10-27 14:25:36==
+1477567536:2016-10-27 14:25:36==Inside 1
+1477567536:2016-10-27 14:25:36==Inside 1
+1477567536:2016-10-27 14:25:36==Inside 1
+1477567536:2016-10-27 14:25:36==Inside 1
+1477567536:2016-10-27 14:25:36==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":20,"new_price":32},{"auction_id":3,"end_time":27,"new_price":13},{"auction_id":2,"end_time":22,"new_price":29},{"auction_id":1,"end_time":9,"new_price":44}]}
+1477567537:2016-10-27 14:25:37==REQUEST: {"rest_action":"get_live_time"}
+1477567537:2016-10-27 14:25:37==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567537:2016-10-27 14:25:37==
+1477567537:2016-10-27 14:25:37==Inside 1
+1477567537:2016-10-27 14:25:37==Inside 1
+1477567537:2016-10-27 14:25:37==Inside 1
+1477567537:2016-10-27 14:25:37==Inside 1
+1477567537:2016-10-27 14:25:37==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":16,"new_price":33},{"auction_id":3,"end_time":9,"new_price":18},{"auction_id":2,"end_time":11,"new_price":50},{"auction_id":1,"end_time":4,"new_price":17}]}
+1477567538:2016-10-27 14:25:38==REQUEST: {"rest_action":"get_live_time"}
+1477567538:2016-10-27 14:25:38==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567538:2016-10-27 14:25:38==
+1477567538:2016-10-27 14:25:38==Inside 1
+1477567538:2016-10-27 14:25:38==Inside 1
+1477567538:2016-10-27 14:25:38==Inside 1
+1477567538:2016-10-27 14:25:38==Inside 1
+1477567538:2016-10-27 14:25:38==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":2,"new_price":13},{"auction_id":3,"end_time":23,"new_price":40},{"auction_id":2,"end_time":16,"new_price":38},{"auction_id":1,"end_time":25,"new_price":39}]}
+1477567539:2016-10-27 14:25:39==REQUEST: {"rest_action":"get_live_time"}
+1477567539:2016-10-27 14:25:39==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567539:2016-10-27 14:25:39==
+1477567539:2016-10-27 14:25:39==Inside 1
+1477567539:2016-10-27 14:25:39==Inside 1
+1477567539:2016-10-27 14:25:39==Inside 1
+1477567539:2016-10-27 14:25:39==Inside 1
+1477567539:2016-10-27 14:25:39==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":13,"new_price":49},{"auction_id":3,"end_time":30,"new_price":38},{"auction_id":2,"end_time":9,"new_price":25},{"auction_id":1,"end_time":17,"new_price":47}]}
+1477567540:2016-10-27 14:25:40==REQUEST: {"rest_action":"get_live_time"}
+1477567540:2016-10-27 14:25:40==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567540:2016-10-27 14:25:40==
+1477567540:2016-10-27 14:25:40==Inside 1
+1477567540:2016-10-27 14:25:40==Inside 1
+1477567540:2016-10-27 14:25:40==Inside 1
+1477567540:2016-10-27 14:25:40==Inside 1
+1477567540:2016-10-27 14:25:40==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":28,"new_price":27},{"auction_id":3,"end_time":1,"new_price":36},{"auction_id":2,"end_time":27,"new_price":21},{"auction_id":1,"end_time":15,"new_price":27}]}
+1477567541:2016-10-27 14:25:41==REQUEST: {"rest_action":"get_live_time"}
+1477567541:2016-10-27 14:25:41==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567541:2016-10-27 14:25:41==
+1477567541:2016-10-27 14:25:41==Inside 1
+1477567541:2016-10-27 14:25:41==Inside 1
+1477567541:2016-10-27 14:25:41==Inside 1
+1477567541:2016-10-27 14:25:41==Inside 1
+1477567541:2016-10-27 14:25:41==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":26,"new_price":41},{"auction_id":3,"end_time":19,"new_price":19},{"auction_id":2,"end_time":23,"new_price":40},{"auction_id":1,"end_time":13,"new_price":42}]}
+1477567542:2016-10-27 14:25:42==REQUEST: {"rest_action":"get_live_time"}
+1477567542:2016-10-27 14:25:42==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567542:2016-10-27 14:25:42==
+1477567542:2016-10-27 14:25:42==Inside 1
+1477567542:2016-10-27 14:25:42==Inside 1
+1477567542:2016-10-27 14:25:42==Inside 1
+1477567542:2016-10-27 14:25:42==Inside 1
+1477567542:2016-10-27 14:25:42==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":25,"new_price":16},{"auction_id":3,"end_time":17,"new_price":24},{"auction_id":2,"end_time":26,"new_price":24},{"auction_id":1,"end_time":3,"new_price":21}]}
+1477567543:2016-10-27 14:25:43==REQUEST: {"rest_action":"get_live_time"}
+1477567543:2016-10-27 14:25:43==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567543:2016-10-27 14:25:43==
+1477567543:2016-10-27 14:25:43==Inside 1
+1477567543:2016-10-27 14:25:43==Inside 1
+1477567543:2016-10-27 14:25:43==Inside 1
+1477567543:2016-10-27 14:25:43==Inside 1
+1477567543:2016-10-27 14:25:43==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":10,"new_price":12},{"auction_id":3,"end_time":29,"new_price":33},{"auction_id":2,"end_time":13,"new_price":30},{"auction_id":1,"end_time":15,"new_price":24}]}
+1477567544:2016-10-27 14:25:44==REQUEST: {"rest_action":"get_live_time"}
+1477567544:2016-10-27 14:25:44==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567544:2016-10-27 14:25:44==
+1477567544:2016-10-27 14:25:44==Inside 1
+1477567544:2016-10-27 14:25:44==Inside 1
+1477567544:2016-10-27 14:25:44==Inside 1
+1477567544:2016-10-27 14:25:44==Inside 1
+1477567544:2016-10-27 14:25:44==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":28,"new_price":30},{"auction_id":3,"end_time":1,"new_price":43},{"auction_id":2,"end_time":24,"new_price":30},{"auction_id":1,"end_time":8,"new_price":36}]}
+1477567545:2016-10-27 14:25:45==REQUEST: {"rest_action":"get_live_time"}
+1477567545:2016-10-27 14:25:45==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567545:2016-10-27 14:25:45==
+1477567545:2016-10-27 14:25:45==Inside 1
+1477567545:2016-10-27 14:25:45==Inside 1
+1477567545:2016-10-27 14:25:45==Inside 1
+1477567545:2016-10-27 14:25:45==Inside 1
+1477567545:2016-10-27 14:25:45==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":8,"new_price":45},{"auction_id":3,"end_time":27,"new_price":50},{"auction_id":2,"end_time":19,"new_price":22},{"auction_id":1,"end_time":24,"new_price":28}]}
+1477567546:2016-10-27 14:25:46==REQUEST: {"rest_action":"get_live_time"}
+1477567546:2016-10-27 14:25:46==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
+1477567546:2016-10-27 14:25:46==
+1477567546:2016-10-27 14:25:46==Inside 1
+1477567546:2016-10-27 14:25:46==Inside 1
+1477567546:2016-10-27 14:25:46==Inside 1
+1477567546:2016-10-27 14:25:46==Inside 1
+1477567546:2016-10-27 14:25:46==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"end_time":14,"new_price":23},{"auction_id":3,"end_time":24,"new_price":22},{"auction_id":2,"end_time":20,"new_price":46},{"auction_id":1,"end_time":17,"new_price":49}]}
