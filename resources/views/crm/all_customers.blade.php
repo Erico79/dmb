@@ -22,7 +22,7 @@
 
 @section('filter')
     <div class="widget">
-        <div class="widget-title"><h4><i class="icon-search"></i> Search for Customer's by Name</h4>
+        <div class="widget-title"><h4><i class="icon-search"></i> Search for Customer by Name</h4>
             <span class="tools">
                 <a href="#"><i class="icon-chevron-up"></i> </a>
             </span>
@@ -50,14 +50,29 @@
 @section('content')
     <table id="all_customers" class="table table-bordered">
         <thead>
-        <tr>
-            <th>Id#</th>
-            <th>Full Name</th>
-            <th>E-mail</th>
-            <th>Buss Role</th>
-            <th>Masterfile Type</th>
-            <th>Reg Date</th>
-        </tr>
+            <tr>
+                <th>Id#</th>
+                <th>Full Name</th>
+                <th>E-mail</th>
+                <th>Buss Role</th>
+                <th>Masterfile Type</th>
+                <th>Reg Date</th>
+                <th>Profile</th>
+            </tr>
         </thead>
+        <tbody>
+            @if($client)
+                @foreach($client as $item)
+                    <tr>
+                        <td>{{ $item->id }}</td>
+                        <td>{{ $item->full_name }}</td>
+                        <td>{{ $item->email }}</td>
+                        <td>{{ $item->b_role }}</td>
+                        <td>{{ $item->customer_type_name }}</td>
+                        <td>{{ $item->reg_date }}</td>
+                    </tr>
+                @endforeach
+            @endif
+        </tbody>
     </table>
 @endsection

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Customers;
+use App\Document;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -570,8 +571,12 @@ class MasterfileController extends Controller
     }
 
     public function loadCustomers(){
-        $client = DB::table('all_masterfile')->where('b_role', '=', 'Client')->get();
-        return Datatables::of($client)->make(true);
+        $clients = DB::table('all_masterfile')->where('b_role', '=', 'Customer')->get();
+        return Datatables::of($clients)
+            ->addColumn('profile', function ($client){
+                return '<a href="'.url("client/show/".$client->id).'" class="btn btn-mini btn-info"><i class="icon-eye-open"></i> Profile</a>';
+            })
+            ->make(true);
     }
 
     public function allSuppliers(){
@@ -580,7 +585,35 @@ class MasterfileController extends Controller
     }
 
     public function loadSuppliers(){
-        $supplier = DB::table('all_masterfile')->where('b_role', '=', 'Supplier')->get();
-        return Datatables::of($supplier)->make(true);
+        $suppliers = DB::table('all_masterfile')->where('b_role', '=', 'Supplier')->get();
+        return Datatables::of($suppliers)
+            ->addColumn('profile', function ($supplier){
+                return '<a href="'.url("supplier/show/".$supplier->id).'" class="btn btn-mini btn-info"><i class="icon-eye-open"></i> Profile</a>';
+            })
+            ->make(true);
+    }
+
+    public function getMfById($mf_id){
+        return Masterfile::find($mf_id);
+    }
+
+    public function showClient($id){
+        $customer = Masterfile::find($id);
+        $docs = Document::where('customer_mfid', $id)->get();
+
+        return view('crm.client-prof')->with([
+            'customer' => $customer,
+            'docs' => $docs
+        ]);
+    }
+
+    public function showSupplier($id){
+        $supplier = Masterfile::find($id);
+        $docs = Document::where('supplier_mfid', $id)->get();
+
+        return view('crm.supplier-prof')->with([
+            'supplier' => $supplier,
+            'docs' => $docs
+        ]);
     }
 }

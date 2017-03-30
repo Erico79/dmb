@@ -7,10 +7,12 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'ActionSeeder' => $baseDir . '/database/seeds/ActionSeeder.php',
+    'AddAttachedToColumn' => $baseDir . '/database/migrations/2017_03_27_230753_add_attached_to_column.php',
     'AddBillIdFk' => $baseDir . '/database/migrations/2016_11_04_115735_add_bill_id_fk.php',
     'AddFkParent' => $baseDir . '/database/migrations/2016_10_18_144143_add_fk_parent.php',
     'AddMfidFk' => $baseDir . '/database/migrations/2016_09_30_160028_add_mfid_fk.php',
     'AddNullablesFields' => $baseDir . '/database/migrations/2016_10_17_144033_add_nullables_fields.php',
+    'AddParentDoc' => $baseDir . '/database/migrations/2017_03_27_215843_add_parent_doc.php',
     'AddParentRoute' => $baseDir . '/database/migrations/2016_10_17_114731_add_parent_route.php',
     'AddRevenuechannelFks' => $baseDir . '/database/migrations/2016_10_01_174941_add_revenuechannel_fks.php',
     'AddServicesFks' => $baseDir . '/database/migrations/2016_10_01_175654_add_services_fks.php',

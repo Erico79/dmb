@@ -32,7 +32,7 @@
                 <th>E-mail</th>
                 <th>Buss Role</th>
                 <th>Edit</th>
-                <th>Profile</th>
+                {{--<th>Profile</th>--}}
             </tr>
         </thead>
         <tbody>
@@ -47,7 +47,7 @@
                     <td>{{ $mf->email }}</td>
                     <td>{{ $mf->b_role }}</td>
                     <td><a href="{{ url('edit_mf/'.$mf->id) }}" class="btn btn-mini edit_cat"><i class="icon-edit"></i> Edit</a> </td>
-                    <td><a href="{{ url('mf-profile/'.$mf->id) }}" class="btn btn-mini btn-info edit_cat" ><i class="icon-eye-open"></i> Profile</a> </td>
+                    {{--<td><a href="{{ url('mf-profile/'.$mf->id) }}" class="btn btn-mini btn-info edit_cat" ><i class="icon-eye-open"></i> Profile</a> </td>--}}
 
                 </tr>
             @endforeach

@@ -133,7 +133,7 @@ class RouteSeeder extends Seeder
 
         $all_supplier = new Route();
         $all_supplier->route_name = 'Upload a Document';
-        $all_supplier->url = 'sub-categories';
+        $all_supplier->url = 'upload-doc-view';
         $all_supplier->parent_route = $inventory_id;
         $all_supplier->save();
         $all_supplier->roles()->attach($admin);

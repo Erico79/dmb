@@ -26,8 +26,8 @@
             <th>Id</th>
             <th>Category name</th>
             <th>Category code</th>
-            <th>Category status</th>
             <th>Parent Category</th>
+            <th>Category status</th>
             <th>Edit</th>
             <th>Delete</th>
         </tr>
@@ -35,7 +35,7 @@
         <tbody>
         @if(count($categories))
             @foreach($categories as $category)
-                @php $parent_category = \App\Category::find($category->parent_category) @endphp
+                @php $parent_category = (!empty($category->parent_category)) ? \App\Category::find($category->parent_category)->category_name : ''; @endphp
         <tr>
             <td>{{ $category->id }}</td>
             <td>{{ $category->category_name }}</td>

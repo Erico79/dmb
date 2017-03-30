@@ -34,6 +34,7 @@ class CreateDocumentsTable extends Migration
                 ->on('masterfiles')
                 ->onUpdate('cascade')
                 ->onDelete('no action');
+            $table->text('document_path');
             $table->timestamps();
         });
     }

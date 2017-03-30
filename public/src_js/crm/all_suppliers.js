@@ -12,6 +12,7 @@ var customer = $('#all_suppliers').DataTable({
         { data: 'email', 'name': 'email' },
         { data: 'b_role', 'name': 'b_role' },
         { data: 'customer_type_name', 'name': 'customer_type_name' },
-        { data: 'reg_date', 'name': 'reg_date' }
+        { data: 'reg_date', 'name': 'reg_date' },
+        { data: 'profile', 'name': 'profile' },
     ]
 });

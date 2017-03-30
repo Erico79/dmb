@@ -43,6 +43,8 @@ Route::get('/all-customers', 'MasterfileController@allCustomers');
 Route::get('/load-customer','MasterfileController@loadCustomers');
 Route::get('/all-suppliers', 'MasterfileController@allSuppliers');
 Route::get('/load-suppliers','MasterfileController@loadSuppliers');
+Route::get('/client/show/{id}', 'MasterfileController@showClient');
+Route::get('/supplier/show/{id}', 'MasterfileController@showSupplier');
 
 #### Documents Manager
 Route::get('categories',array('uses'=>'InventoryController@getCategories','as'=>'category.index') );
@@ -51,7 +53,10 @@ Route::get('category-details/{id}','InventoryController@getCategoryData');
 Route::post('update-category/{id}',['uses'=>'InventoryController@updateCategory','as'=>'category.update']);
 Route::delete('delete-category/{id}','InventoryController@destroyCategory');
 Route::get('upload-doc-view', 'DocumentController@index');
-Route::post('upload-doc', 'DocumentController@store');
+Route::post('process-upload', 'DocumentController@store');
+Route::get('all-uploaded-docs', 'DocumentController@getUploadedDocs');
+Route::get('document/show/{id}', 'DocumentController@showDocProfile');
+Route::post('delete-doc', 'DocumentController@destroy');
 
 //routes for managing sub category details
 Route::get('sub-categories',array('uses'=>'InventoryController@getSubCategories','as'=>'sub_category.index') );
@@ -59,52 +64,6 @@ Route::post('add-subcategory','InventoryController@addSubCategory');
 Route::get('get-subcategory-ailments/{id}','InventoryController@getSubCatAilments');
 Route::post('update-subcategory/{id}', 'InventoryController@updateSubcategory');
 Route::delete('delete-subcategory/{id}','InventoryController@destroySubcategory');
-
-Route::get('warehouses',array('uses'=>'InventoryController@getWarehouses','as'=>'warehouses.store'));
-Route::get('all-items','InventoryController@getIndex');
-Route::get('warehouse-data/{warehouse_id}','InventoryController@getWarehouse');
-Route::post('add-warehouse','InventoryController@addWarehouse');
-Route::post('update-warehouse/{id}','InventoryController@updateWarehouse');
-Route::delete('delete-warehouse/{id}','InventoryController@destroyWarehouse');
-
-Route::get('add-item','NewInventoryController@addItem');
-Route::get('add-item',array( 'uses'=>'NewInventoryController@addItem','as'=>'add-items.index'));
-Route::post('store-item','NewInventoryController@StoreItem');
-Route::get('all-items',array('uses'=>'NewInventoryController@index','as'=>'all-items.index'));
-Route::get('stock-transactions',array('uses'=>'NewInventoryController@stockTransactions','as'=>'stock-transactions.index'));
-Route::post('create-transaction','NewInventoryController@createTransaction');
-Route::post('upload-inventory-pics', 'NewInventoryController@uploadInventoryPics');
-Route::get('item-details/{id}','NewInventoryController@getItemDetails');
-
-
-Route::post('filter-items','NewInventoryController@getFilteredItems');
-
-
-#### Auction Module
-Route::get('auction-items', 'AuctionController@index');
-Route::get('auction-item-data/{id}', 'AuctionController@getAuctionItemData');
-Route::get('live-auction-items', 'AuctionController@liveAuctions');
-Route::get('ended-auction-items', 'AuctionController@endedAuctions');
-Route::post('add-auction-item', 'AuctionController@store');
-Route::post('edit-auction-item', 'AuctionController@update');
-Route::delete('delete-auction-item', 'AuctionController@destroy');
-Route::get('bid-packages', 'BidPackageController@index');
-Route::post('add-bid-package', 'BidPackageController@store');
-Route::post('update-bid-package', 'BidPackageController@update');
-Route::delete('delete-bid-package', 'BidPackageController@destroy');
-Route::get('bid-package-data/{id}', 'BidPackageController@getBidPackage');
-
-#### Auction Sales
-Route::get('/bid-sales', 'SalesController@bidSales');
-Route::get('/load-bid-sales', 'SalesController@loadBidSales');
-Route::get('/buy-now-purchases', 'SalesController@buyNowPurchases');
-Route::get('/load-buy-now-purchases', 'SalesController@loadBuyNowPurchases');
-Route::get('/ordinary-purchases', 'SalesController@ordinaryPurchases');
-Route::get('/load-ordinary-purchases', 'SalesController@loadOrdinaryPurchases');
-Route::get('/auction-purchases', 'SalesController@auctionPurchases');
-Route::get('/orders', 'OrderController@index');
-Route::get('/load-orders', 'OrderController@loadOrders');
-Route::get('/load-order-items/{id}', 'OrderController@loadOrderItems');
 
 #### Revenue Manager Module
 Route::get('/revenue-channels', 'RevenueChannelController@revenueChannels');

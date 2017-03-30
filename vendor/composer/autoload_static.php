@@ -360,10 +360,12 @@ class ComposerStaticInitd975b01357ccd5aedf89783ba049d694
 
     public static $classMap = array (
         'ActionSeeder' => __DIR__ . '/../..' . '/database/seeds/ActionSeeder.php',
+        'AddAttachedToColumn' => __DIR__ . '/../..' . '/database/migrations/2017_03_27_230753_add_attached_to_column.php',
         'AddBillIdFk' => __DIR__ . '/../..' . '/database/migrations/2016_11_04_115735_add_bill_id_fk.php',
         'AddFkParent' => __DIR__ . '/../..' . '/database/migrations/2016_10_18_144143_add_fk_parent.php',
         'AddMfidFk' => __DIR__ . '/../..' . '/database/migrations/2016_09_30_160028_add_mfid_fk.php',
         'AddNullablesFields' => __DIR__ . '/../..' . '/database/migrations/2016_10_17_144033_add_nullables_fields.php',
+        'AddParentDoc' => __DIR__ . '/../..' . '/database/migrations/2017_03_27_215843_add_parent_doc.php',
         'AddParentRoute' => __DIR__ . '/../..' . '/database/migrations/2016_10_17_114731_add_parent_route.php',
         'AddRevenuechannelFks' => __DIR__ . '/../..' . '/database/migrations/2016_10_01_174941_add_revenuechannel_fks.php',
         'AddServicesFks' => __DIR__ . '/../..' . '/database/migrations/2016_10_01_175654_add_services_fks.php',

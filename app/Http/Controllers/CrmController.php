@@ -8,7 +8,7 @@ use App\Masterfile;
 class CrmController extends Controller
 {
     public function getAllCustomers(){
-        $customers = Masterfile::where('b_role', '=', 'Client')->get();
+        $customers = Masterfile::where('b_role', '=', 'Customer')->get();
         return view('crm.all_customers', array(
             'customers' => $customers
         ));
@@ -26,5 +26,9 @@ class CrmController extends Controller
         return view('crm.all_suppliers', array(
             'suppliers' => $suppliers
         ));
+    }
+
+    public function allCustomers(){
+        return Masterfile::where('b_role', '=', 'Customer')->get();
     }
 }

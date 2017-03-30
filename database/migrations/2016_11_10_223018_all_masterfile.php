@@ -21,9 +21,9 @@ class AllMasterfile extends Migration
                    b_role, 
                    email, 
                    customer_type_name, 
-                   concat(surname,' ',firstname,' ',middlename) AS full_name
-                FROM masterfiles 
-                WHERE b_role = 'Staff' "
+                   concat(surname,' ',firstname,' ',middlename) AS full_name,
+                   id
+                FROM masterfiles "
         );
     }
 

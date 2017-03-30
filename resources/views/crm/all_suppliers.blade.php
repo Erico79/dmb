@@ -22,7 +22,7 @@
 
 @section('filter')
     <div class="widget">
-        <div class="widget-title"><h4><i class="icon-search"></i> Search for Supplier's by Name</h4>
+        <div class="widget-title"><h4><i class="icon-search"></i> Search for Supplier by Name</h4>
             <span class="tools">
                 <a href="#"><i class="icon-chevron-up"></i> </a>
             </span>
@@ -57,6 +57,7 @@
             <th>Buss Role</th>
             <th>Masterfile Type</th>
             <th>Reg Date</th>
+            <th>Profile</th>
         </tr>
         </thead>
     </table>
