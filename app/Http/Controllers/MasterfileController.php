@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Customers;
 use App\Document;
+use function foo\func;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -564,12 +565,15 @@ class MasterfileController extends Controller
     }
 
     public function allCustomers(){
-        $client = DB::table('all_masterfile')->where('b_role', '=', 'Customer')->get();
-        return view('crm.all_customers')->with(array('client' => $client ));
+        return view('crm.all_customers');
     }
 
     public function loadCustomers(){
-        $clients = DB::table('all_masterfile')->where('b_role', '=', 'Customer')->get();
+        $clients = DB::table('all_masterfile')->where('b_role', '=', 'Customer');
+
+        if(count($this->searchMfByKey('Customer')))
+            $clients = $this->searchMfByKey('Customer');
+
         return Datatables::of($clients)
             ->addColumn('profile', function ($client){
                 return '<a href="'.url("client/show/".$client->id).'" class="btn btn-mini btn-info"><i class="icon-eye-open"></i> Profile</a>';
@@ -578,17 +582,35 @@ class MasterfileController extends Controller
     }
 
     public function allSuppliers(){
-        $supplier = DB::table('all_masterfile')->where('b_role', '=', 'Supplier')->get();
-        return view('crm.all_suppliers')->with(array('supplier' => $supplier ));
+        return view('crm.all_suppliers');
     }
 
     public function loadSuppliers(){
-        $suppliers = DB::table('all_masterfile')->where('b_role', '=', 'Supplier')->get();
+        $suppliers = DB::table('all_masterfile')->where('b_role', '=', 'Supplier');
+
+        if(count($this->searchMfByKey('Supplier')))
+            $suppliers = $this->searchMfByKey('Supplier');
+
         return Datatables::of($suppliers)
             ->addColumn('profile', function ($supplier){
                 return '<a href="'.url("supplier/show/".$supplier->id).'" class="btn btn-mini btn-info"><i class="icon-eye-open"></i> Profile</a>';
             })
             ->make(true);
+    }
+
+    public function searchMfByKey($b_role){
+        if(isset($_GET['key']) && !empty($_GET['key'])){
+            $key = strtolower($_GET['key']);
+
+            $mfs = DB::table('all_masterfile')->where('b_role', '=', $b_role)
+                ->where(function ($query) use ($key){
+                    $query->whereRaw("lower(surname) like ?", ['%'.$key.'%']);
+                    $query->orWhereRaw("lower(firstname) like ?", ['%'.$key.'%']);
+                    $query->orWhereRaw("lower(middlename) like ?", ['%'.$key.'%']);
+                });
+
+            return $mfs;
+        }
     }
 
     public function getMfById($mf_id){

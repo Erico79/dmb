@@ -1,8 +1,0 @@
-1476731600:2016-10-17 22:13:20==REQUEST: {"rest_action":"get_live_items"}
-1476731600:2016-10-17 22:13:20==SELECT a.id, a.buy_now_option,i.item_name,a.refresh_rate,    	 	 a.reserve_price                 FROM auctions a LEFT JOIN items i                  ON a.item_id = i.id                WHERE a.status = '1'                ORDER by a.id DESC
-1476731600:2016-10-17 22:13:20==
-1476731600:2016-10-17 22:13:20==Inside 1
-1476731600:2016-10-17 22:13:20==Inside 1
-1476731600:2016-10-17 22:13:20==Inside 1
-1476731600:2016-10-17 22:13:20==Inside 1
-1476731600:2016-10-17 22:13:20==RESPONSE: {"response_code":100,"live_items":[{"auction_id":5,"buy_now":1,"name":"Tv set","refresh_rate":"20","reserve_price":"10","image_path":"https:\/\/www.windstream.com\/uploadedImages\/Content\/Product\/Electronics\/Tablets_Laptops_and_Desktops\/HP255Laptop-thumb.jpg"},{"auction_id":3,"buy_now":1,"name":"Leather SeatCovers","refresh_rate":"20","reserve_price":"4000","image_path":"https:\/\/www.windstream.com\/uploadedImages\/Content\/Product\/Electronics\/Tablets_Laptops_and_Desktops\/HP255Laptop-thumb.jpg"},{"auction_id":2,"buy_now":1,"name":"HP Laptop","refresh_rate":"15","reserve_price":"2000","image_path":"https:\/\/www.windstream.com\/uploadedImages\/Content\/Product\/Electronics\/Tablets_Laptops_and_Desktops\/HP255Laptop-thumb.jpg"},{"auction_id":1,"buy_now":1,"name":"TagHeur Watch","refresh_rate":"20","reserve_price":"2000","image_path":"https:\/\/www.windstream.com\/uploadedImages\/Content\/Product\/Electronics\/Tablets_Laptops_and_Desktops\/HP255Laptop-thumb.jpg"}]}

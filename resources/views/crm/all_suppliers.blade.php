@@ -1,6 +1,6 @@
 @extends('layouts.dt')
 @section('title', 'All Suppliers')
-@section('page-title', 'CRM')
+@section('page-title', 'Suppliers')
 @section('widget-title', 'All Suppliers')
 
 @push('js')
@@ -34,7 +34,7 @@
                         <div class="control-group">
                             <label for="search_customer" class="control-label">Supplier Name:</label>
                             <div class="controls">
-                                <input type="text" id="search_customer" class="span12" placeholder="Enter Supplier's name"/>
+                                <input type="text" id="search_supplier" class="span12" placeholder="Type Supplier's name"/>
                             </div>
                         </div>
                     </div>

@@ -14,16 +14,18 @@ class AllMasterfile extends Migration
     public function up()
     {
         DB::statement(
-            "CREATE OR REPLACE VIEW all_masterfile AS
-                SELECT id_passport,
-                   gender,
-                   reg_date,
-                   b_role, 
-                   email, 
-                   customer_type_name, 
-                   concat(surname,' ',firstname,' ',middlename) AS full_name,
-                   id
-                FROM masterfiles "
+            "CREATE VIEW all_masterfile AS SELECT masterfiles.id_passport,
+                masterfiles.gender,
+                masterfiles.reg_date,
+                masterfiles.b_role,
+                masterfiles.email,
+                masterfiles.customer_type_name,
+                masterfiles.id,
+                masterfiles.surname,
+                masterfiles.firstname,
+                masterfiles.middlename,
+                concat(masterfiles.surname, ' ', masterfiles.firstname, ' ', masterfiles.middlename) AS full_name
+               FROM masterfiles"
         );
     }
 

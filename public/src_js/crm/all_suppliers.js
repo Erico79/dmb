@@ -16,3 +16,9 @@ var customer = $('#all_suppliers').DataTable({
         { data: 'profile', 'name': 'profile' },
     ]
 });
+
+$('#search_supplier').on('input', function(){
+    var key = $(this).val();
+
+    customer.ajax.url('load-suppliers?key=' + key).load();
+});

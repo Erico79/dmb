@@ -4,7 +4,7 @@
 @section('widget-title', 'All Users')
 
 @push('js')
-<script src="{{ URL::asset('src_js/users/all_users.js') }}"></script>
+    <script src="{{ URL::asset('src_js/users/all_users.js') }}"></script>
 @endpush
 
 @section('breadcrumbs')
@@ -29,7 +29,6 @@
     </button>
     <button id="refresh-actions" class="btn btn-info btn-small">Refresh</button>
 @endsection
-
 
 @section('content')
     <div id="feedback"></div>

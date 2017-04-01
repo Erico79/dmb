@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Role;
 use App\User;
 use App\Message;
 use App\MessageType;
 use App\MessageContent;
 use App\Masterfile;
+use function foo\func;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Auth;
@@ -35,19 +37,23 @@ class Manage_userController extends Controller
         $users =DB::table('users_view');
         return Datatables::queryBuilder($users)
             ->editColumn('status',
-            '@if($status)
+                '@if($status)
                   <label class="label label-success"> Active</label>
                 @else
                    <label class="label label-inverse"> Blocked</label>
                 @endif')
+            ->addColumn('user_role', function ($user){
+                $user_role = DB::table('role_user')->where('user_id', $user->id)->first();
+                $role_name = Role::find($user_role->role_id)->role_name;
+                return $role_name;
+            })
             ->addColumn('manage', function ($users){
-
                 return ($users->status)? '<button class="btn btn-mini btn-warning" id="block" user-id="'.$users->id.'"><i class="icon-user-md"></i> Deactivate User</button>'
                     :'<button class="btn btn-mini btn-success" id="unblock" user-id="'.$users->id.'"><i class="icon-user-md"></i> Activate User</button>';
 
             })
             ->addColumn('profile', function ($users){
-                return '<a href="user_profile/'.$users->id.'" class="btn btn-xs btn-info"><i class="icon-user"></i> View Profile</a>';
+                return '<a href="user_profile/'.$users->id.'" class="btn btn-mini btn-info"><i class="icon-user"></i> View Profile</a>';
             })
             ->make(true);
     }

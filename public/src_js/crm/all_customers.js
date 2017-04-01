@@ -16,3 +16,9 @@ var customer = $('#all_customers').DataTable({
         { data: 'profile', 'name': 'profile' }
     ]
 });
+
+$('#search_customer').on('input', function(){
+    var key = $(this).val();
+
+    customer.ajax.url('load-customer?key=' + key).load();
+});

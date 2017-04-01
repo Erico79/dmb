@@ -22,7 +22,7 @@
 
 @section('filter')
     <div class="widget">
-        <div class="widget-title"><h4><i class="icon-search"></i> Search for Customer by Name</h4>
+        <div class="widget-title"><h4><i class="icon-search"></i> Search for Customer by Surname/First Name/Middle Name</h4>
             <span class="tools">
                 <a href="#"><i class="icon-chevron-up"></i> </a>
             </span>
@@ -34,13 +34,10 @@
                         <div class="control-group">
                             <label for="search_customer" class="control-label">Customer Name:</label>
                             <div class="controls">
-                                <input type="text" id="search_customer" class="span12" placeholder="Enter Customer's name"/>
+                                <input type="text" id="search_customer" placeholder="Type customer's name" class="span12"/>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="form-actions">
-                    <button class="btn btn-primary">Search</button>
                 </div>
             </form>
         </div>
@@ -60,19 +57,6 @@
                 <th>Profile</th>
             </tr>
         </thead>
-        <tbody>
-            @if($client)
-                @foreach($client as $item)
-                    <tr>
-                        <td>{{ $item->id }}</td>
-                        <td>{{ $item->full_name }}</td>
-                        <td>{{ $item->email }}</td>
-                        <td>{{ $item->b_role }}</td>
-                        <td>{{ $item->customer_type_name }}</td>
-                        <td>{{ $item->reg_date }}</td>
-                    </tr>
-                @endforeach
-            @endif
-        </tbody>
+        <tbody></tbody>
     </table>
 @endsection

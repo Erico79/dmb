@@ -8,6 +8,7 @@
                         <option value="">--Choose Business Role--</option>
                         <option value="Customer" {{ (old('b_role') == 'Customer') ? 'selected' : '' }}>Customer</option>
                         <option value="Supplier" {{ (old('b_role') == 'Supplier' ? 'selected' : '') }}>Supplier</option>
+                        <option value="Staff" {{ (old('b_role') == 'Staff' ? 'selected' : '') }}>Staff</option>
                     </select>
                 </div>
             </div>
@@ -16,7 +17,7 @@
             <div class="control-group">
                 <label for="reg_date" class="control-label">Start Date<span>*</span></label>
                 <div class="controls">
-                    <input type="text" class="date-picker span12" name="reg_date" readonly value="<?php
+                    <input type="text" class="date-picker span12" name="reg_date" value="<?php
                     if(isset($_POST['reg_date'])){
                         echo $_POST['reg_date'];
                     }else{
