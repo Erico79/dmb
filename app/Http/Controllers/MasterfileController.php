@@ -220,21 +220,19 @@ class MasterfileController extends Controller
             ));
             $address->save();
 
-            //create
-
             // create user login account
-            $password = sha1(123456);
+            $password = bcrypt(123456);
             $full_name = $mf->surname.' '.$mf->firstname;
-            //$token = rememberToken();
+
+            $staff_role = Role::where('role_code', 'STAFF')->first();
             $login = User::create(array (
                 'masterfile_id' => $mf_id,
                 'email' => Input::get('email'),
                 'password' => $password,
                 'name' => $full_name
-                //'remember_token' => $token
             ));
-            //print_r($login);exit;
             $login->save();
+            $login->roles()->attach($staff_role);
         });
 
         Session::flash('success', 'Staff '.$_POST['surname'].' '.$_POST['firstname'].' has been added');
