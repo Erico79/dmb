@@ -17,10 +17,10 @@ use PhpParser\Comment\Doc;
 class DocumentController extends Controller
 {
     public function index(CrmController $crm, SupplierController $supplier){
-        $docs = Document::all();
+        $docs = $this->getMyDocs();
         $customers = $crm->allCustomers();
         $suppliers = $supplier->allSuppliers();
-        $cats = Category::whereNotNull('parent_category')->get();
+        $cats = Category::whereNull('parent_category')->get();
 
         return view('inventory.upload-doc')
             ->with([
@@ -29,6 +29,12 @@ class DocumentController extends Controller
                 'suppliers' => $suppliers,
                 'categories' => $cats,
             ]);
+    }
+
+    public function getMyDocs(){
+        return Document::where('created_by', Auth::user()->id)
+            ->orWhere('public', '1')
+            ->get();
     }
 
     public function store(Request $request){
@@ -50,6 +56,8 @@ class DocumentController extends Controller
         $doc->parent_doc = (!empty($request->attach_to_doc)) ? $request->attach_to_doc : NULL;
         $doc->attached_to = $request->attach_to;
         $doc->category_id = $request->category;
+        $doc->subcat_id = $request->sub_category;
+        $doc->public = (!is_null($request->visibility)) ? '1' : '0';
         $doc->save();
 
         $request->session()->flash('status', 'The document has been uploaded!');
@@ -111,5 +119,49 @@ class DocumentController extends Controller
             $request->session()->flash('warning', 'Cannot delete the document; It has other versions related to it!');
             return redirect('/upload-doc-view');
         }
+    }
+
+    public function getDocIcon($doc_path){
+        if(!empty($doc_path)) {
+            $file_extension = $this->getExtension($doc_path);
+            switch (strtolower($file_extension)) {
+                case 'txt':
+                    return '<i class="fa fa-file-text"></i>';
+
+                case 'doc':
+                case 'docx':
+                    return '<i class="fa fa-file-word-o"></i>';
+
+                case 'xls':
+                case 'xlsx':
+                    return '<i class="fa fa-file-excel-o"></i>';
+
+                case 'zip':
+                case 'gzip':
+                case 'rar':
+                case 'tar':
+                    return '<i class="fa fa-file-archive-o"></i>';
+
+                case 'jpg':
+                case 'jpeg':
+                case 'png':
+                case 'gif':
+                    return '<i class="fa fa-file-picture-o"></i>';
+
+                case 'pdf':
+                    return '<i class="fa fa-file-pdf-o"></i>';
+
+                case 'vob':
+                    return '<i class="fa fa-file';
+
+                default:
+                    return '<i class="fa fa-file"></i>';
+            }
+        }
+    }
+
+    public function getExtension($doc_path){
+        $file = explode('.', $doc_path);
+        return $file[1];
     }
 }

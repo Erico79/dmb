@@ -18,8 +18,8 @@ var FormComponents = function () {
         $('.text-toggle-button').toggleButtons({
             width: 200,
             label: {
-                enabled: "Lorem Ipsum",
-                disabled: "Dolor Sit"
+                enabled: "Public",
+                disabled: "Private"
             }
         });
         $('.danger-toggle-button').toggleButtons({

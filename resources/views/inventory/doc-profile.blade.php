@@ -23,7 +23,7 @@
 @section('widget-title', '<span style="color: green;"> '.$doc->document_name.' </span>')
 
 @section('actions')
-    <a href="{{ URL::asset($doc->document_path) }}" class="btn btn-small btn-info"><i class="icon-download"></i> View/Download</a>
+    <a href="{{ URL::asset($doc->document_path) }}" target="_blank" class="btn btn-small btn-info"><i class="icon-download"></i> View/Download</a>
     <button class="btn btn-small btn-default" data-toggle="modal" data-target="#email-doc"><i class="icon-envelope"></i> Email Document</button>
     <button class="btn btn-small btn-danger" id="delete-doc"><i class="icon-trash"></i> Delete Document</button>
 @endsection

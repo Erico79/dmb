@@ -19,6 +19,28 @@ var Doc = {
     },
     hideSelectors: function () {
         $('#select_supplier, #select_customer').fadeOut('slow');
+    },
+    loadSubCategories: function (cat_id) {
+        if(cat_id != ''){
+            $.ajax({
+                url: 'load-subcategories/' + cat_id,
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    var sub_cats = '<option value="">--Choose Sub Category--</option>';
+                    for(var i = 0; i < data.length; i++){
+                        sub_cats += '<option value="'+ data[i].id +'">' + data[i].category_name + '</option>';
+                    }
+
+                    console.log(sub_cats);
+                    $('#sub_category').show();
+                    $('#sub_category select').html(sub_cats);
+                }
+            });
+        } else {
+            $('#sub_category').hide();
+            $('#sub_category select').val('');
+        }
     }
 };
 
@@ -41,4 +63,11 @@ $('#delete-doc').on('click', function () {
    } else {
        return false;
    }
+});
+
+// load subcategories
+$('#category').on('change', function () {
+    var cat = $(this).val();
+
+    Doc.loadSubCategories(cat);
 });

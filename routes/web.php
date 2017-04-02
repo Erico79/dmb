@@ -52,6 +52,7 @@ Route::post('add-category','InventoryController@addCategory');
 Route::get('category-details/{id}','InventoryController@getCategoryData');
 Route::post('update-category/{id}',['uses'=>'InventoryController@updateCategory','as'=>'category.update']);
 Route::delete('delete-category/{id}','InventoryController@destroyCategory');
+Route::get('/load-subcategories/{id}', 'InventoryController@loadSubCategories');
 Route::get('upload-doc-view', 'DocumentController@index');
 Route::post('process-upload', 'DocumentController@store');
 Route::get('all-uploaded-docs', 'DocumentController@getUploadedDocs');

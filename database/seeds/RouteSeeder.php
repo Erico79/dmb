@@ -139,6 +139,13 @@ class RouteSeeder extends Seeder
         $all_supplier->roles()->attach($admin);
 
         $all_supplier = new Route();
+        $all_supplier->route_name = 'Load Sub Categories';
+        $all_supplier->url = 'load-subcategories/{id}';
+        $all_supplier->parent_route = $inventory_id;
+        $all_supplier->save();
+        $all_supplier->roles()->attach($admin);
+
+        $all_supplier = new Route();
         $all_supplier->route_name = 'All Documents';
         $all_supplier->url = 'all-docs';
         $all_supplier->parent_route = $inventory_id;

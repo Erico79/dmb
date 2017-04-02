@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Category;
 use App\SubCategory;
 use App\Warehouse;
-use Illuminate\Auth\Access\Response;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -194,11 +194,10 @@ class InventoryController extends Controller
     public function getWarehouse(Request $request){
         $id = $request->warehouse_id;
         $warehouse = Warehouse::find($id);
-        return \Illuminate\Support\Facades\Response::json($warehouse);
+        return Response::json($warehouse);
     }
 
     public function updateWarehouse(Request $request, $id){
-        var_dump($_POST);
         $warehouse = Warehouse::find($id);
         if($warehouse->warehouse_name != $request->input('warehouse_name')) {
             $this->validate($request, array(
@@ -221,5 +220,15 @@ class InventoryController extends Controller
 
         Session::flash('success','The warehouse has been edited');
         return redirect('warehouses');
+    }
+
+    public function loadSubCategories($cat_id){
+        $sub_cats = Category::where('parent_category', $cat_id)->get();
+
+        return Response::json($sub_cats);
+    }
+
+    public function getCategoryName($cat_id){
+        return Category::find($cat_id);
     }
 }
